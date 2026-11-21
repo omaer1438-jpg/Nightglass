@@ -1,0 +1,18 @@
+id: ofw_myspace
+name: Myspace
+category: social
+description: Legacy social network originally used for profile sharing. Still operational
+  with archived data, music discovery, and profile search capabilities.
+limitations: From OSINT Framework (Other Social Networks; free). What you enter goes
+  to this site.
+official_url: https://myspace.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

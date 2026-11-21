@@ -1,0 +1,24 @@
+# Blackbird, username search - tool manifest (schema: core/manifest.py)
+id: blackbird_username
+name: "Blackbird (usernames)"
+category: usernames
+description: "Username search across the WhatsMyName site list."
+limitations: "Keep its AI profiling disabled. Results are leads until verified."
+official_url: https://github.com/p1ngul1n0/blackbird
+license: "GPL-3.0"
+open_source: true
+provider: "Sites in the WhatsMyName list (account-exists checks)"
+labels: [external, passive]
+target_types: [username]
+launch:
+  kind: subprocess
+  venv: envs/blackbird
+  timeout_s: 300
+  max_output_kb: 4096
+  # Same install as tools/blackbird.yaml, plus data/wmn-data.json from the WhatsMyName project
+  # (--no-update keeps that list pinned). --ai is never passed.
+  script: envs/blackbird/app/blackbird.py
+  cwd: script
+  args: ["--username", "{username}", "--no-update", "--timeout", "20"]
+parser: adapters.blackbird:parse_username
+review_date: 2026-11-01

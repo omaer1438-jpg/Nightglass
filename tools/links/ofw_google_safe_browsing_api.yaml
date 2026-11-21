@@ -1,0 +1,18 @@
+id: ofw_google_safe_browsing_api
+name: Google Safe Browsing API
+category: domains
+description: Google's free API detecting malicious URLs and phishing sites with protection
+  across billions of devices.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://developers.google.com/safe-browsing/?csw=1
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

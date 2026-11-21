@@ -1,0 +1,20 @@
+id: ofw_omnibus
+name: Omnibus
+category: general
+description: Interactive CLI OSINT tool for investigating artifacts (IPs, domains,
+  emails, usernames, hashes, Bitcoin addresses) with over 25 integrated OSINT modules.
+limitations: From OSINT Framework (OSINT Automation; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/InQuest/omnibus
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+- username
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

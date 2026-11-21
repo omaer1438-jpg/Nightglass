@@ -1,0 +1,20 @@
+id: ofw_uncover_it
+name: Uncover It
+category: threat
+description: Static malware configuration extractor that quickly analyzes files without
+  execution to extract malware configurations, C2 infrastructure, and IOCs in under
+  5 seconds.
+limitations: From OSINT Framework (Hosted Automated Analysis; free). What you enter
+  goes to this site.
+official_url: https://www.uncoverit.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

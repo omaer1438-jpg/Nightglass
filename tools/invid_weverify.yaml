@@ -1,0 +1,14 @@
+# InVID-WeVerify - tool manifest (schema: core/manifest.py)
+id: invid_weverify
+name: "InVID-WeVerify"
+category: images
+description: "Browser plugin for image and video verification."
+limitations: "Verify current browser support. Some features call external services."
+official_url: https://www.invid-project.eu/tools-and-services/invid-verification-plugin/
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [file, url]
+launch:
+  kind: browser
+review_date: 2026-10-01

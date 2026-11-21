@@ -1,0 +1,14 @@
+# VirusTotal - tool manifest (schema: core/manifest.py)
+id: virustotal
+name: "VirusTotal"
+category: domains
+description: "Reputation and scan history for URLs, domains, IPs and file hashes."
+limitations: "Anything you submit can be shared with security vendors. Never upload private case files."
+official_url: https://www.virustotal.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, ip, url]
+launch:
+  kind: browser
+review_date: 2026-11-01

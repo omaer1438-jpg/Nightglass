@@ -1,0 +1,19 @@
+id: ofw_markmonitor_whois_search
+name: MarkMonitor Whois Search
+category: domains
+description: ICANN-accredited registrar and brand protection company offering WHOIS
+  lookup and domain management services. Exclusively serves corporate clients including
+  major global brands.
+limitations: From OSINT Framework (Whois Records; paid). What you enter goes to this
+  site.
+official_url: https://domains.markmonitor.com/whois/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

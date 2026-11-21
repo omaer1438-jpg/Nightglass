@@ -1,0 +1,18 @@
+id: ofw_netlas_io_5
+name: Netlas.io
+category: ip
+description: 'Comprehensive internet scanning platform with OSINT, DNS, and WHOIS
+  data. Free tier: 50 requests/day.'
+limitations: From OSINT Framework (Host / Port Discovery; freemium). What you enter
+  goes to this site.
+official_url: https://netlas.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_tiktok_osint
+name: TikTok-OSINT
+category: social
+description: Python tool for extracting TikTok profile metadata and video-linked OSINT
+  artifacts.
+limitations: From OSINT Framework (TikTok; free). Install and run it yourself after
+  reviewing it.
+official_url: https://github.com/Omicron166/TikTok-OSINT
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

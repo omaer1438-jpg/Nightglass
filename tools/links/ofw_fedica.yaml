@@ -1,0 +1,18 @@
+id: ofw_fedica
+name: Fedica
+category: social
+description: Social analytics platform with audience and engagement insights across
+  multiple social networks.
+limitations: From OSINT Framework (Twitter > Location / Mapping; freemium). What you
+  enter goes to this site.
+official_url: https://fedica.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

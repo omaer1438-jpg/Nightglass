@@ -1,0 +1,19 @@
+id: ofw_aquatone
+name: Aquatone
+category: domains
+description: Go-based tool for domain reconnaissance that automates subdomain discovery,
+  HTTP service scanning, screenshot capture, and visual HTML report generation for
+  attack surface analysis.
+limitations: From OSINT Framework (Subdomains; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/michenriksen/aquatone
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

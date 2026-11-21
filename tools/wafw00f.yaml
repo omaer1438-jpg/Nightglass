@@ -1,0 +1,22 @@
+# wafw00f - tool manifest (schema: core/manifest.py)
+id: wafw00f
+name: "wafw00f"
+category: web
+description: "Identifies the web application firewall protecting a site."
+limitations: "Active: it sends test requests that resemble attacks to the target. Only on sites you may test. Off by default."
+official_url: https://github.com/EnableSecurity/wafw00f
+license: "BSD-3-Clause"
+open_source: true
+provider: "The target site itself (a few test requests)"
+labels: [external, active]
+target_types: [url]
+active_setting: active.wafw00f   # Settings switch, off by default
+launch:
+  kind: subprocess
+  venv: envs/wafw00f
+  timeout_s: 60
+  max_output_kb: 512
+  # Verified against wafw00f 2.4.2. Without -a it stops at the first match, which keeps it to a few requests.
+  args: ["-c", "from wafw00f.main import main; main()", "{url}", "-o", "waf.json", "--no-colors", "-T", "15"]
+parser: adapters.wafdetect:parse
+review_date: 2026-11-02

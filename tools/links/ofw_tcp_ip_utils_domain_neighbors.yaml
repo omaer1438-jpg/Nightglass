@@ -1,0 +1,18 @@
+id: ofw_tcp_ip_utils_domain_neighbors
+name: TCP/IP Utils - Domain Neighbors
+category: ip
+description: Find all domains on the same IP and subdomain information via reverse
+  IP lookups.
+limitations: From OSINT Framework (Neighbor Domains; free). What you enter goes to
+  this site.
+official_url: https://dnslytics.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

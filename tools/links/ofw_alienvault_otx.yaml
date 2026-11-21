@@ -1,0 +1,20 @@
+id: ofw_alienvault_otx
+name: AlienVault OTX
+category: threat
+description: Crowd-sourced threat intelligence platform with 180K+ participants sharing
+  19M+ daily threats.
+limitations: From OSINT Framework (Threat Feeds & Platforms; free). What you enter
+  goes to this site.
+official_url: https://otx.alienvault.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

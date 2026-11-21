@@ -1,0 +1,18 @@
+id: ofw_email_format
+name: Email Format
+category: email
+description: Tool for analyzing and discovering corporate email address patterns and
+  formats to predict valid employee email addresses within an organization.
+limitations: From OSINT Framework (Common Email Formats; free). What you enter goes
+  to this site.
+official_url: https://www.email-format.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,14 @@
+# Hunter - tool manifest (schema: core/manifest.py)
+id: hunter
+name: "Hunter"
+category: email
+description: "Finds public email addresses and patterns for a company domain."
+limitations: "Needs a free account with a monthly limit."
+official_url: https://hunter.io
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, email]
+launch:
+  kind: browser
+review_date: 2026-11-01

@@ -1,0 +1,18 @@
+id: ofw_ezr_osint_sidebar
+name: EZR OSINT Sidebar
+category: general
+description: Chrome extension providing integrated OSINT tools in a browser sidebar;
+  extracts and documents images, emails, IPs, and metadata from web content.
+limitations: From OSINT Framework (Web Browsing; free). What you enter goes to this
+  site.
+official_url: https://chromewebstore.google.com/detail/ezr-osint-sidebar/joagbbgciboooipadijeaoidjjigdmof
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,19 @@
+id: ofw_terrorist_finance_tracking_program
+name: Terrorist Finance Tracking Program
+category: threat
+description: U.S. Treasury program tracking terrorist financing and money laundering.
+limitations: From OSINT Framework (Terrorism & Extremism > Terrorist Financing; free).
+  What you enter goes to this site.
+official_url: https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

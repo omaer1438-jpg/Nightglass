@@ -1,0 +1,18 @@
+id: ofw_ipv4_ipv6_lists_by_country_code
+name: IPv4/IPv6 lists by country code
+category: ip
+description: Database of IPv4 and IPv6 address ranges organized by country for geographic
+  IP filtering.
+limitations: From OSINT Framework (Geolocation; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/ipverse/
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,19 @@
+id: ofw_deepviz_domain_search
+name: Deepviz Domain Search
+category: domains
+description: Threat intelligence platform providing domain, IP, and malware sample
+  search with daily threat feeds. Includes similar sample finding, malware family
+  clustering, and API/Splunk integration.
+limitations: From OSINT Framework (Reputation; freemium). What you enter goes to this
+  site.
+official_url: https://search.deepviz.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

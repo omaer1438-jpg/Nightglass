@@ -1,0 +1,14 @@
+# TinEye - tool manifest (schema: core/manifest.py)
+id: tineye
+name: "TinEye"
+category: images
+description: "Web-based reverse image search."
+limitations: "Images are sent to TinEye. Subject to service limits."
+official_url: https://tineye.com
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [file]
+launch:
+  kind: browser
+review_date: 2026-10-01

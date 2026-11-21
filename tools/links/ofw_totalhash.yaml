@@ -1,0 +1,18 @@
+id: ofw_totalhash
+name: '#totalhash'
+category: threat
+description: Malware Hash Registry that searches against 30+ antivirus databases to
+  validate malware hashes with detection percentage results. Updated daily.
+limitations: From OSINT Framework (Search; free). What you enter goes to this site.
+official_url: https://totalhash.cymru.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

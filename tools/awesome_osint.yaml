@@ -1,0 +1,14 @@
+# Awesome OSINT - tool manifest (schema: core/manifest.py)
+id: awesome_osint
+name: "Awesome OSINT"
+category: general
+description: "Large community list of OSINT tools and resources."
+limitations: "A directory: links are community-maintained and may be stale."
+official_url: https://github.com/jivoi/awesome-osint
+license: "CC0-1.0"
+open_source: true
+labels: [external, passive]
+target_types: [domain, username, email]
+launch:
+  kind: browser
+review_date: 2026-11-01

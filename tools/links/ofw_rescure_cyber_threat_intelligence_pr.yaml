@@ -1,0 +1,20 @@
+id: ofw_rescure_cyber_threat_intelligence_pr
+name: REScure Cyber Threat Intelligence Project
+category: threat
+description: Community-driven cyber threat intelligence project providing IOC feeds
+  and research.
+limitations: From OSINT Framework (Threat Feeds & Platforms; free). What you enter
+  goes to this site.
+official_url: https://rescure.me/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

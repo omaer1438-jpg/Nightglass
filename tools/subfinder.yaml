@@ -1,0 +1,23 @@
+# Subfinder - tool manifest (schema: core/manifest.py)
+id: subfinder
+name: "Subfinder"
+category: domains
+description: "Passive subdomain discovery from many public sources."
+limitations: "Some sources need API keys; keep it in passive mode."
+official_url: https://github.com/projectdiscovery/subfinder
+license: "MIT"
+open_source: true
+provider: "Subfinder's passive sources (certificate logs, DNS datasets, search archives)"
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: subprocess
+  executable: bin/subfinder.exe
+  timeout_s: 300
+  max_output_kb: 4096
+  # Subfinder v2.17.0 (subfinder_2.17.0_windows_amd64.zip, verified against the release checksums).
+  sha256: 163c509636aaea3d333c5f3119fd9152cf661d7aef7212522509c14aa20475c6
+  # Passive sources only (Subfinder never touches the target). -duc: no update check.
+  args: ["-d", "{domain}", "-silent", "-oJ", "-nc", "-duc", "-timeout", "30", "-max-time", "5"]
+parser: adapters.subfinder:parse
+review_date: 2026-10-01

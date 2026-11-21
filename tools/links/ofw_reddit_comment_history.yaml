@@ -1,0 +1,17 @@
+id: ofw_reddit_comment_history
+name: Reddit Comment History
+category: social
+description: Visualization utility for reviewing Reddit account comment history and
+  timing patterns.
+limitations: From OSINT Framework (Reddit; free). What you enter goes to this site.
+official_url: https://roadtolarissa.com/javascript/reddit-comment-visualizer/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

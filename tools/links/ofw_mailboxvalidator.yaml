@@ -1,0 +1,18 @@
+id: ofw_mailboxvalidator
+name: MailboxValidator
+category: email
+description: Email verification API that validates email deliverability, detects catch-all
+  addresses, and provides risk scoring for bulk email list cleaning.
+limitations: From OSINT Framework (Email Verification; paid). What you enter goes
+  to this site.
+official_url: https://www.mailboxvalidator.com/demo
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

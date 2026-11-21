@@ -1,0 +1,17 @@
+id: ofw_visualping
+name: VisualPing
+category: domains
+description: Website monitoring platform that alerts on page content or visual changes.
+limitations: From OSINT Framework (Change Detection; freemium). What you enter goes
+  to this site.
+official_url: https://visualping.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

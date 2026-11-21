@@ -1,0 +1,14 @@
+# archive.today - tool manifest (schema: core/manifest.py)
+id: archive_today
+name: "archive.today"
+category: archives
+description: "On-demand snapshots of web pages."
+limitations: "Snapshots you create are public. The service can be slow or show a captcha."
+official_url: https://archive.ph
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [url]
+launch:
+  kind: browser
+review_date: 2026-11-01

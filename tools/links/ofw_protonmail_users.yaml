@@ -1,0 +1,18 @@
+id: ofw_protonmail_users
+name: ProtonMail users
+category: usernames
+description: Queries ProtonMail's HKP-compatible PGP key server to look up the public
+  key for a ProtonMail username. A successful response confirms the account exists.
+limitations: From OSINT Framework (Specific Sites; free). What you enter goes to this
+  site.
+official_url: https://api.protonmail.ch/pks/lookup?op=index&search=<username>@protonmail.com
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,19 @@
+id: ofw_fb_email_search
+name: FB Email Search
+category: social
+description: Facebook public search pattern used to test whether an email identifier
+  resolves to matching profiles. Useful for quick account existence checks with manually
+  edited query values.
+limitations: From OSINT Framework (Facebook > Search; free). What you enter goes to
+  this site.
+official_url: https://www.facebook.com/public?query=email@gmail.com&nomc=0
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

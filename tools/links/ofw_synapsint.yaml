@@ -1,0 +1,18 @@
+id: ofw_synapsint
+name: SynapsInt
+category: domains
+description: Unified web-based OSINT research platform supporting domain, IP, SSL,
+  analytics, email, phone, and social media lookups with subdomain enumeration.
+limitations: From OSINT Framework (Subdomains; free). What you enter goes to this
+  site.
+official_url: https://synapsint.com
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

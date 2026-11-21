@@ -1,0 +1,18 @@
+id: ofw_shadowserver_foundation
+name: Shadowserver Foundation
+category: domains
+description: Nonprofit providing comprehensive IP reputation intelligence and automated
+  abuse reporting through daily network scanning.
+limitations: From OSINT Framework (Domain Blacklists; free). What you enter goes to
+  this site.
+official_url: https://www.shadowserver.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

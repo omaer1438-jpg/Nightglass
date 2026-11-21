@@ -1,0 +1,19 @@
+id: ofw_whatsmyname_web
+name: WhatsMyName Web
+category: usernames
+description: Free web-based OSINT username enumeration tool that searches for a specified
+  username across 1500+ websites and platforms simultaneously, returning direct links
+  to matching profiles.
+limitations: From OSINT Framework (Username Search Engines; free). What you enter
+  goes to this site.
+official_url: https://whatsmyname.app/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

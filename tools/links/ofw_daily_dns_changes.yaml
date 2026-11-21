@@ -1,0 +1,18 @@
+id: ofw_daily_dns_changes
+name: Daily DNS Changes
+category: domains
+description: DomainTools service monitoring DNS record changes across domains, detecting
+  newly registered subdomains and tracking DNS infrastructure modifications.
+limitations: From OSINT Framework (Whois Records; freemium). What you enter goes to
+  this site.
+official_url: https://dailychanges.domaintools.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

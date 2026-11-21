@@ -1,0 +1,18 @@
+id: ofw_steamosint
+name: SteamOSINT
+category: social
+description: Python tool for OSINT on Steam user profiles. Collects public profile
+  data including games owned, achievements, playtime, and trade history.
+limitations: From OSINT Framework (Steam, Discord & Gaming Networks; free). Install
+  and run it yourself after reviewing it.
+official_url: https://github.com/Frontline-Femmes/Steam-OSINT
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

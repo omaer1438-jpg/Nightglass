@@ -1,0 +1,18 @@
+id: ofw_siteliner
+name: Siteliner
+category: domains
+description: Website crawler that highlights duplicate content, broken links, and
+  SEO quality issues.
+limitations: From OSINT Framework (Analytics; freemium). What you enter goes to this
+  site.
+official_url: https://www.siteliner.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

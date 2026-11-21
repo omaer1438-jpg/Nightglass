@@ -1,0 +1,17 @@
+id: ofw_verif_cation_quiz_bot
+name: Verif!cation Quiz Bot
+category: general
+description: Daily OSINT verification challenges posted on X (Twitter), using a community-driven
+  quiz format for image geolocation and source verification.
+limitations: From OSINT Framework (Games; free). What you enter goes to this site.
+official_url: https://x.com/quiztime
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

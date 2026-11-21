@@ -1,0 +1,22 @@
+# PhoneInfoga - tool manifest (schema: core/manifest.py)
+id: phoneinfoga
+name: "PhoneInfoga"
+category: phone
+description: "Phone-number scanner framework (Go)."
+limitations: "Marked stable but unmaintained, so optional. Some scanners query external services."
+official_url: https://github.com/sundowndev/phoneinfoga
+license: "GPL-3.0"
+open_source: true
+provider: "PhoneInfoga scanners: local parsing, OVH Telecom lookup, Google search links (Numverify only with a key)"
+labels: [external, passive]
+target_types: [phone]
+launch:
+  kind: subprocess
+  executable: bin/phoneinfoga.exe
+  timeout_s: 120
+  max_output_kb: 1024
+  # PhoneInfoga v2.11.0 (phoneinfoga_Windows_x86_64.tar.gz, verified against the release checksums).
+  sha256: 6e71257cb20e809578525a12fd54b8d331552a440af60b9dbd27f2e2e445bba3
+  args: ["scan", "-n", "{phone}"]
+parser: adapters.phoneinfoga:parse
+review_date: 2026-10-01

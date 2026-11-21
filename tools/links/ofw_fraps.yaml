@@ -1,0 +1,18 @@
+id: ofw_fraps
+name: FRAPS
+category: general
+description: Video recording and screen capture utility for Windows with FPS benchmarking
+  and lossless video capture; last updated 2013 but still functional.
+limitations: From OSINT Framework (Screen Capture; freemium). What you enter goes
+  to this site.
+official_url: https://fraps.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_similarweb
+name: SimilarWeb
+category: domains
+description: Digital intelligence platform for traffic estimates, referrals, and audience
+  insights.
+limitations: From OSINT Framework (Analytics; freemium). What you enter goes to this
+  site.
+official_url: https://www.similarweb.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,14 @@
+# Epieos - tool manifest (schema: core/manifest.py)
+id: epieos
+name: "Epieos"
+category: email
+description: "Looks up public accounts linked to an email address."
+limitations: "The address is sent to Epieos. Use it only on addresses inside your case's scope."
+official_url: https://epieos.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [email]
+launch:
+  kind: browser
+review_date: 2026-11-01

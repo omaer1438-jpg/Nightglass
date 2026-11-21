@@ -1,0 +1,20 @@
+id: ofw_malpedia
+name: Malpedia
+category: threat
+description: Free collaborative malware database from Fraunhofer FKIE with 600+ malware
+  families.
+limitations: From OSINT Framework (Threat Feeds & Platforms; freemium). What you enter
+  goes to this site.
+official_url: https://malpedia.caad.fkie.fraunhofer.de/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

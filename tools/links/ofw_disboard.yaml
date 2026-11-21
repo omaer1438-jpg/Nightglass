@@ -1,0 +1,16 @@
+id: ofw_disboard
+name: "Disboard"
+category: social
+description: "Public Discord server discovery platform: find communities by topic, language and popularity."
+limitations: "From OSINT Framework (Instant Messaging > Discord; free). Public server listings only."
+official_url: https://disboard.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: 2026-11-03

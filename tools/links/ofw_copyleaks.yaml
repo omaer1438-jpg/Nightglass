@@ -1,0 +1,18 @@
+id: ofw_copyleaks
+name: Copyleaks
+category: ai
+description: Plagiarism and AI-generated content detection platform that checks text
+  against web sources and AI writing patterns across multiple languages.
+limitations: From OSINT Framework (AI Detectors; freemium). What you enter goes to
+  this site.
+official_url: https://copyleaks.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

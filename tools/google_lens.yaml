@@ -1,0 +1,14 @@
+# Google Lens - tool manifest (schema: core/manifest.py)
+id: google_lens
+name: "Google Lens"
+category: images
+description: "Reverse image search on the web."
+limitations: "Images are uploaded to and processed by Google."
+official_url: https://lens.google
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [file]
+launch:
+  kind: browser
+review_date: 2026-10-01

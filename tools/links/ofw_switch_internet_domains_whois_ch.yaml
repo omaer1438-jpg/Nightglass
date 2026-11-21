@@ -1,0 +1,19 @@
+id: ofw_switch_internet_domains_whois_ch
+name: SWITCH Internet Domains Whois (.ch)
+category: domains
+description: Official Swiss domain registry WHOIS lookup service operated by SWITCH
+  for .ch and .li country-code domains. Public registry with all owner contact details
+  visible.
+limitations: From OSINT Framework (Whois Records; free). What you enter goes to this
+  site.
+official_url: https://www.nic.ch/whois/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_tweeterid
+name: TweeterID
+category: social
+description: Bidirectional converter between X/Twitter usernames and numeric account
+  IDs for correlation and API-ready pivots.
+limitations: From OSINT Framework (Twitter > Search; free). What you enter goes to
+  this site.
+official_url: https://tweeterid.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

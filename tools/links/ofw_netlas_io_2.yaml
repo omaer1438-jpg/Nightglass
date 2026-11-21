@@ -1,0 +1,18 @@
+id: ofw_netlas_io_2
+name: Netlas.io
+category: domains
+description: Comprehensive internet-wide scanning and OSINT platform providing DNS,
+  WHOIS, SSL, and network reconnaissance with attack surface discovery capabilities.
+limitations: From OSINT Framework (Subdomains; freemium). What you enter goes to this
+  site.
+official_url: https://app.netlas.io/domains/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

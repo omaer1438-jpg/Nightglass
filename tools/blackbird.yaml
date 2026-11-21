@@ -1,0 +1,26 @@
+# Blackbird - tool manifest (schema: core/manifest.py)
+id: blackbird
+name: "Blackbird"
+category: usernames
+description: "Username and email search across 600+ sites using WhatsMyName data."
+limitations: "Keep its AI profiling disabled: it sends site names to an external API. Results are leads until verified."
+official_url: https://github.com/p1ngul1n0/blackbird
+license: "GPL-3.0"
+open_source: true
+provider: "Sites in Blackbird's bundled email list (account-exists checks)"
+labels: [external, passive]
+target_types: [username, email]
+launch:
+  kind: subprocess
+  venv: envs/blackbird
+  timeout_s: 300
+  max_output_kb: 4096
+  # Not on PyPI. Install it yourself (README): clone into envs/blackbird/app, then
+  #   envs/blackbird/Scripts/python -m pip install -r envs/blackbird/app/requirements.txt
+  script: envs/blackbird/app/blackbird.py
+  cwd: script            # it reads its site lists relative to its own folder
+  # Results are read from the console: no --json/--csv, so no copies outside the case folder.
+  # --ai is never passed (it would send site names to an external AI service).
+  args: ["--email", "{email}", "--no-update", "--timeout", "20"]
+parser: adapters.blackbird:parse
+review_date: 2026-10-01

@@ -1,0 +1,19 @@
+id: ofw_mitre_ttps
+name: Mitre TTPs
+category: threat
+description: 'MITRE ATT&CK framework: globally-accessible knowledge base of adversary
+  tactics and techniques.'
+limitations: From OSINT Framework (TTPs; free). What you enter goes to this site.
+official_url: https://attack.mitre.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

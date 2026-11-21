@@ -1,0 +1,18 @@
+id: ofw_timeline_js3
+name: Timeline JS3
+category: general
+description: Open-source JavaScript timeline tool by Knight Lab that creates interactive
+  multimedia timelines from Google Sheets or JSON data.
+limitations: From OSINT Framework (Documentation / Evidence Capture; free). What you
+  enter goes to this site.
+official_url: https://timeline.knightlab.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

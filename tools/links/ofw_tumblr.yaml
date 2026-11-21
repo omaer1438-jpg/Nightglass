@@ -1,0 +1,18 @@
+id: ofw_tumblr
+name: Tumblr
+category: social
+description: Blogging and social network platform with tagging system. Supports keyword
+  and tag-based content search.
+limitations: From OSINT Framework (Other Social Networks; free). What you enter goes
+  to this site.
+official_url: https://www.tumblr.com/tagged/search
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

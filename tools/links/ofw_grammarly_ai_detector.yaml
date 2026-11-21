@@ -1,0 +1,18 @@
+id: ofw_grammarly_ai_detector
+name: Grammarly AI Detector
+category: ai
+description: Grammarly's AI content detection tool that identifies text likely generated
+  by AI writing assistants, with percentage breakdown of human vs. AI content.
+limitations: From OSINT Framework (AI Detectors; free). What you enter goes to this
+  site.
+official_url: https://www.grammarly.com/ai-detector
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

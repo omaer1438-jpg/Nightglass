@@ -1,0 +1,18 @@
+id: ofw_wasitai
+name: WasItAI
+category: ai
+description: Lightweight AI content detection tool that analyzes text and images to
+  determine if they were created by AI, with a simple interface for quick checks.
+limitations: From OSINT Framework (AI Detectors; free). What you enter goes to this
+  site.
+official_url: https://wasitai.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

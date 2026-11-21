@@ -1,0 +1,16 @@
+id: ofw_clearwebstats_com
+name: ClearWebStats.com
+category: domains
+description: Public site-statistics index showing traffic and rank snapshots for domains.
+limitations: From OSINT Framework (Analytics; free). What you enter goes to this site.
+official_url: https://www.clearwebstats.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

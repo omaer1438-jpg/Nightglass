@@ -1,0 +1,18 @@
+id: ofw_portmap
+name: Portmap
+category: ip
+description: Port mapping tool that scans for open ports and services on target IP
+  addresses.
+limitations: From OSINT Framework (Host / Port Discovery; free). What you enter goes
+  to this site.
+official_url: https://portmap.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

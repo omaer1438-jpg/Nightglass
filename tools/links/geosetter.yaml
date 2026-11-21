@@ -1,0 +1,15 @@
+id: geosetter
+name: "GeoSetter"
+category: images
+description: "Windows app that shows a photo's GPS location on a map and views or edits its geotags."
+limitations: "Runs on this computer; the download is not code-signed. For images that already hold GPS data."
+official_url: https://geosetter.de/en/main-en/
+license: null
+open_source: false
+labels:
+- local
+target_types:
+- file
+launch:
+  kind: browser
+review_date: 2026-11-03

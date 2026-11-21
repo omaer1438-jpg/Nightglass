@@ -1,0 +1,18 @@
+id: ofw_blackweb
+name: Blackweb
+category: domains
+description: Open-source project consolidating public malware domain blacklists optimized
+  for Squid-Cache compatibility.
+limitations: From OSINT Framework (Domain Blacklists; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/maravento/blackweb
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

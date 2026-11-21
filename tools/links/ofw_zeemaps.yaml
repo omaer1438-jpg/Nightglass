@@ -1,0 +1,18 @@
+id: ofw_zeemaps
+name: ZeeMaps
+category: general
+description: Interactive map creation and sharing tool with unlimited markers, 3-level
+  access control, and support for crowdsourced data input.
+limitations: From OSINT Framework (Map Locations; paid). What you enter goes to this
+  site.
+official_url: https://www.zeemaps.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

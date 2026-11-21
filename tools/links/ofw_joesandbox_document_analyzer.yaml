@@ -1,0 +1,20 @@
+id: ofw_joesandbox_document_analyzer
+name: JoeSandbox Document Analyzer
+category: threat
+description: Hosted automated malware analysis service that performs dynamic and static
+  analysis of files including Office documents, PDFs, and executables with comprehensive
+  behavioral reporting.
+limitations: From OSINT Framework (Hosted Automated Analysis > Office Files; freemium).
+  What you enter goes to this site.
+official_url: https://www.joesandbox.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

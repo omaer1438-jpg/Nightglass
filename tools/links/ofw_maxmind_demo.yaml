@@ -1,0 +1,18 @@
+id: ofw_maxmind_demo
+name: MaxMind Demo
+category: ip
+description: Web-based IP geolocation demo with location, ASN, and network data from
+  MaxMind's GeoIP database.
+limitations: From OSINT Framework (Geolocation; free). What you enter goes to this
+  site.
+official_url: https://www.maxmind.com/en/home
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

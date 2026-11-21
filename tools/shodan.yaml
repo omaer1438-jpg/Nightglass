@@ -1,0 +1,14 @@
+# Shodan - tool manifest (schema: core/manifest.py)
+id: shodan
+name: "Shodan"
+category: ip
+description: "Search engine for internet-connected devices and exposed services."
+limitations: "Searches need a free account; filters and exports need a paid plan."
+official_url: https://www.shodan.io
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [ip, domain]
+launch:
+  kind: browser
+review_date: 2026-11-01

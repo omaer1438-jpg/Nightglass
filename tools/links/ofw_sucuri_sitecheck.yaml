@@ -1,0 +1,19 @@
+id: ofw_sucuri_sitecheck
+name: Sucuri SiteCheck
+category: domains
+description: Free remote website scanner that checks for malware, security threats,
+  blacklisting, and vulnerabilities. Detects outdated CMS versions, insecure configurations,
+  and security anomalies.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://sitecheck.sucuri.net/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

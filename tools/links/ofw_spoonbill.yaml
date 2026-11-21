@@ -1,0 +1,18 @@
+id: ofw_spoonbill
+name: Spoonbill
+category: social
+description: Service that tracks Twitter/X profile changes such as bios, names, and
+  avatars over time.
+limitations: From OSINT Framework (Twitter > Archive / Deleted Tweets; freemium).
+  What you enter goes to this site.
+official_url: https://spoonbill.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

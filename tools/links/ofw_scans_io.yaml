@@ -1,0 +1,18 @@
+id: ofw_scans_io
+name: Scans.io
+category: ip
+description: Archive of internet-wide scan data including censys scans and other reconnaissance
+  data.
+limitations: From OSINT Framework (Host / Port Discovery; free). What you enter goes
+  to this site.
+official_url: https://scans.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

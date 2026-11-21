@@ -1,0 +1,19 @@
+id: ofw_keybase
+name: Keybase
+category: usernames
+description: Platform for cryptographic identity verification, linking social media
+  accounts, PGP keys, and cryptocurrency addresses to a single profile. Acquired by
+  Zoom in 2020 but still operational.
+limitations: From OSINT Framework (Specific Sites; free). What you enter goes to this
+  site.
+official_url: https://keybase.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

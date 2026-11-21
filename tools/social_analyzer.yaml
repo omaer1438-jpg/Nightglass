@@ -1,0 +1,24 @@
+# social-analyzer - tool manifest (schema: core/manifest.py)
+id: social_analyzer
+name: "social-analyzer"
+category: usernames
+description: "Finds a username across about 1,000 sites and scores each match."
+limitations: "Takes about 3 minutes and prints its results only at the end: a run stopped early keeps nothing. Scores are estimates and false matches are common: verify each one."
+official_url: https://github.com/qeeqbox/social-analyzer
+license: "AGPL-3.0"
+open_source: true
+provider: "About 1,000 public websites from social-analyzer's bundled list"
+labels: [external, passive]
+target_types: [username]
+launch:
+  kind: subprocess
+  venv: envs/social_analyzer
+  timeout_s: 300
+  max_output_kb: 4096
+  # Verified against social-analyzer 0.45. Fast mode (plain HTTP, no browser); --options keeps only
+  # the link, score and title, because the page text would make the console output 7 times larger.
+  args: ["-m", "social-analyzer", "--username", "{username}", "--websites", "all", "--mode", "fast",
+         "--output", "json", "--method", "find", "--filter", "good", "--profiles", "detected",
+         "--options", "link,rate,title"]
+parser: adapters.socialanalyzer:parse
+review_date: 2026-11-01

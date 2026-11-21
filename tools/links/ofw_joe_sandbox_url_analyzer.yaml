@@ -1,0 +1,19 @@
+id: ofw_joe_sandbox_url_analyzer
+name: Joe Sandbox Url Analyzer
+category: domains
+description: Deep URL and document analysis using real browser execution in isolated
+  environments. Detects malware, phishing, and suspicious behavior with detailed system/network
+  monitoring.
+limitations: From OSINT Framework (Reputation; freemium). What you enter goes to this
+  site.
+official_url: https://www.url-analyzer.net/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

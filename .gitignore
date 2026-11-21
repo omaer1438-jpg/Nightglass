@@ -1,0 +1,39 @@
+# --- Case data and secrets: never commit (docs/PROJECT_RULES.md) ---
+cases/
+evidence/
+reports/
+logs/
+envs/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.enc
+*.tmp
+crash.log
+nightglass.lock
+.env
+.env.*
+bin/*.exe
+bin/*.zip
+
+# --- Python / tooling ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+*.egg-info/
+build/
+dist/
+
+# --- OS / editor ---
+desktop.ini
+Thumbs.db
+.vscode/
+.idea/
+bin/exiftool_files/

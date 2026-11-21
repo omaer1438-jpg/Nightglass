@@ -1,0 +1,18 @@
+id: ofw_bluto
+name: Bluto
+category: domains
+description: Recon utility for domain intelligence including DNS records, email patterns,
+  and infrastructure clues.
+limitations: From OSINT Framework (Subdomains; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/darryllane/Bluto
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_vurl_online
+name: vURL Online
+category: domains
+description: URL and domain dissection tool providing detailed reputation analysis
+  and security assessment.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://vurldissect.co.uk/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

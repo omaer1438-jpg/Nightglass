@@ -1,0 +1,18 @@
+id: ofw_threads_dashboard
+name: Threads Dashboard
+category: social
+description: Analytics and insights platform for Threads accounts using the official
+  API. Tracks audience demographics, engagement metrics, and historical posting data.
+limitations: From OSINT Framework (Threads; freemium). What you enter goes to this
+  site.
+official_url: https://www.threadsdashboard.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

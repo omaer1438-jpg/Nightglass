@@ -1,0 +1,19 @@
+id: ofw_virustotal
+name: VirusTotal
+category: threat
+description: Multi-engine file and URL scanner that aggregates results from 70+ antivirus
+  engines and threat feeds.
+limitations: From OSINT Framework (Hosted Automated Analysis; freemium). What you
+  enter goes to this site.
+official_url: https://www.virustotal.com/gui/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

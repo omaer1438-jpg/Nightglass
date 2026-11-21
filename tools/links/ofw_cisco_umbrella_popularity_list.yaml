@@ -1,0 +1,16 @@
+id: ofw_cisco_umbrella_popularity_list
+name: Cisco Umbrella Popularity List
+category: domains
+description: Domain popularity ranking based on Cisco Umbrella DNS telemetry.
+limitations: From OSINT Framework (Analytics; free). What you enter goes to this site.
+official_url: https://s3-us-west-1.amazonaws.com/umbrella-static/index.html
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

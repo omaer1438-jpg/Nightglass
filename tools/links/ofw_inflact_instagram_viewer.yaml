@@ -1,0 +1,18 @@
+id: ofw_inflact_instagram_viewer
+name: Inflact Instagram Viewer
+category: social
+description: Anonymous Instagram viewer for browsing public profiles, stories, and
+  posts without authenticating to Instagram directly.
+limitations: From OSINT Framework (Instagram; freemium). What you enter goes to this
+  site.
+official_url: https://inflact.com/instagram-viewer/profile/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

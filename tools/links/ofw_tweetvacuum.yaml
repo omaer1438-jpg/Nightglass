@@ -1,0 +1,18 @@
+id: ofw_tweetvacuum
+name: TweetVacuum
+category: social
+description: Tool for extracting larger Twitter/X timeline archives beyond default
+  on-platform browsing constraints.
+limitations: From OSINT Framework (Twitter > Archive / Deleted Tweets; free). Install
+  and run it yourself after reviewing it.
+official_url: https://github.com/UberKitten/TweetVacuum
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

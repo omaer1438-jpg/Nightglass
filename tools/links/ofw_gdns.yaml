@@ -1,0 +1,18 @@
+id: ofw_gdns
+name: gdns
+category: domains
+description: Google DNS-focused command-line tool for DNS lookup and domain record
+  exploration.
+limitations: From OSINT Framework (Subdomains; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/hrbrmstr/gdns
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,14 @@
+# RIPEstat - tool manifest (schema: core/manifest.py)
+id: ripestat
+name: "RIPEstat"
+category: ip
+description: "Network owner, prefix, ASN and routing data."
+limitations: "Shows who holds the network, not who uses an address."
+official_url: https://stat.ripe.net
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [ip]
+launch:
+  kind: web_api
+review_date: 2026-10-01

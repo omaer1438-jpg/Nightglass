@@ -1,0 +1,20 @@
+id: ofw_mr_looquer_ioc_feed_1st_dual_stack_t
+name: Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed
+category: threat
+description: Threat intelligence feed providing IOC data with IPv4/IPv6 dual stack
+  support.
+limitations: From OSINT Framework (Threat Feeds & Platforms; free). What you enter
+  goes to this site.
+official_url: https://iocfeed.mrlooquer.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,20 @@
+id: ofw_ifttt
+name: IFTTT
+category: general
+description: No-code automation platform connecting 900+ apps and services with trigger-action
+  applets for automating workflows and data collection.
+limitations: From OSINT Framework (OSINT Automation; freemium). What you enter goes
+  to this site.
+official_url: https://ifttt.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- username
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

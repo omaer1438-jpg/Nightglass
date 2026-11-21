@@ -1,0 +1,19 @@
+id: ofw_zoomeye_ai
+name: ZoomEye.ai
+category: domains
+description: Cyberspace search engine indexing internet-connected devices, services,
+  and vulnerabilities globally. Provides AI-powered search via ZoomEyeGPT with support
+  for ZoomEye dorks for targeted reconnaissance.
+limitations: From OSINT Framework (Discovery; freemium). What you enter goes to this
+  site.
+official_url: https://www.zoomeye.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

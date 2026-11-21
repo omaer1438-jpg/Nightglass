@@ -1,0 +1,20 @@
+id: ofw_any_run
+name: Any Run
+category: threat
+description: Interactive malware analysis sandbox allowing real-time manual interaction
+  with Windows, macOS, Linux, and Android environments. Fast report generation with
+  MITRE ATT&CK mapping.
+limitations: From OSINT Framework (Hosted Automated Analysis; freemium). What you
+  enter goes to this site.
+official_url: https://app.any.run/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

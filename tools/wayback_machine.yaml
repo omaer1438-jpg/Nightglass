@@ -1,0 +1,14 @@
+# Wayback Machine - tool manifest (schema: core/manifest.py)
+id: wayback_machine
+name: "Wayback Machine"
+category: archives
+description: "Archived snapshots of web pages over time."
+limitations: "Coverage is incomplete; a missing snapshot proves nothing."
+official_url: https://web.archive.org
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [url, domain]
+launch:
+  kind: browser
+review_date: 2026-10-01

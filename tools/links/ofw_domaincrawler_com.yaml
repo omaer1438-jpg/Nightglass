@@ -1,0 +1,19 @@
+id: ofw_domaincrawler_com
+name: Domaincrawler.com
+category: domains
+description: Enterprise-grade domain database covering 1.4+ billion registered and
+  unregistered domains with 80+ billion historical records since 2008. Used by brand
+  protection and OSINT professionals.
+limitations: From OSINT Framework (Whois Records; paid). What you enter goes to this
+  site.
+official_url: https://domaincrawler.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

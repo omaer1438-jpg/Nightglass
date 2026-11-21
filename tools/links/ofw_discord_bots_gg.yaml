@@ -1,0 +1,16 @@
+id: ofw_discord_bots_gg
+name: "Discord Bot List"
+category: social
+description: "Searchable public directory of Discord bots, with categories and listing metadata."
+limitations: "From OSINT Framework (Online Communities > Discord Servers; free). Public listings only."
+official_url: https://discord.bots.gg/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: 2026-11-03

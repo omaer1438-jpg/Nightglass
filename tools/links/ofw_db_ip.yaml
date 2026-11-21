@@ -1,0 +1,18 @@
+id: ofw_db_ip
+name: DB-IP
+category: ip
+description: Lightweight IP geolocation API covering 46M+ IPv4/IPv6 blocks with city-level
+  accuracy.
+limitations: From OSINT Framework (Geolocation; freemium). What you enter goes to
+  this site.
+official_url: https://db-ip.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

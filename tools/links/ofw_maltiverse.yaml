@@ -1,0 +1,20 @@
+id: ofw_maltiverse
+name: Maltiverse
+category: threat
+description: Threat intelligence platform aggregating 100+ sources with real-time
+  IOC scoring.
+limitations: From OSINT Framework (Threat Feeds & Platforms; freemium). What you enter
+  goes to this site.
+official_url: https://maltiverse.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

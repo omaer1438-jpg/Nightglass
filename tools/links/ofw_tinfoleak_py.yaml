@@ -1,0 +1,18 @@
+id: ofw_tinfoleak_py
+name: Tinfoleak.py
+category: social
+description: Python command-line tool for collecting Twitter/X account intelligence
+  and metadata from target profiles.
+limitations: From OSINT Framework (Twitter > Analytics; free). Install and run it
+  yourself after reviewing it.
+official_url: https://github.com/vaguileradiaz/tinfoleak
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,17 @@
+id: ofw_sitedossier
+name: Sitedossier
+category: domains
+description: Domain dossier aggregator with WHOIS, DNS, and linked infrastructure
+  context.
+limitations: From OSINT Framework (Analytics; free). What you enter goes to this site.
+official_url: https://www.sitedossier.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

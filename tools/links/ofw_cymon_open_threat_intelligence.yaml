@@ -1,0 +1,20 @@
+id: ofw_cymon_open_threat_intelligence
+name: Cymon Open Threat Intelligence
+category: threat
+description: Largest open tracker of malware, phishing, botnets containing 6M+ malicious
+  IPs.
+limitations: From OSINT Framework (Threat Feeds & Platforms; freemium). What you enter
+  goes to this site.
+official_url: https://cymon.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

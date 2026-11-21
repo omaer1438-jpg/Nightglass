@@ -1,0 +1,14 @@
+# Recon-ng - tool manifest (schema: core/manifest.py)
+id: recon_ng
+name: "Recon-ng"
+category: general
+description: "Modular reconnaissance framework with a Metasploit-like console."
+limitations: "Interactive console tool: install and run it separately. Many modules need API keys."
+official_url: https://github.com/lanmaster53/recon-ng
+license: "GPL-3.0"
+open_source: true
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: browser
+review_date: 2026-11-01

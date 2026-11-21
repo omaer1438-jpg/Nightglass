@@ -1,0 +1,23 @@
+# yt-dlp - tool manifest (schema: core/manifest.py)
+id: yt_dlp
+name: "yt-dlp"
+category: web
+description: "Reads the public details of a video from thousands of sites."
+limitations: "Sites change often and some block automated requests; update it when one stops working."
+official_url: https://github.com/yt-dlp/yt-dlp
+license: "Unlicense"
+open_source: true
+provider: "The video site in the URL"
+labels: [external, passive]
+target_types: [url]
+launch:
+  kind: subprocess
+  venv: envs/ytdlp
+  timeout_s: 120
+  max_output_kb: 1024
+  # Verified against yt-dlp 2026.10.26. --ignore-config: no user config or cookies. Installed without
+  # curl_cffi, so it never impersonates a browser. The info file stays in the run folder.
+  args: ["-m", "yt_dlp", "--ignore-config", "--no-cache-dir", "--skip-download", "--write-info-json",
+         "--no-playlist", "--no-warnings", "--quiet", "-o", "video", "--", "{url}"]
+parser: adapters.videoinfo:parse
+review_date: 2026-11-01

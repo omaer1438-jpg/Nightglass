@@ -1,0 +1,18 @@
+id: ofw_blocklist_de
+name: Blocklist.de
+category: ip
+description: Community-contributed blocklist of IP addresses involved in attacks and
+  malicious activity.
+limitations: From OSINT Framework (Blacklists; free). What you enter goes to this
+  site.
+official_url: https://www.blocklist.de/en/index.html
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

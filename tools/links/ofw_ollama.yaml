@@ -1,0 +1,18 @@
+id: ofw_ollama
+name: Ollama
+category: ai
+description: Local LLM runner that enables privacy-preserving AI inference on personal
+  hardware by downloading and running open-source models like Llama 3, Mistral, and
+  Gemma.
+limitations: From OSINT Framework (LLMs; free). What you enter goes to this site.
+official_url: https://ollama.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

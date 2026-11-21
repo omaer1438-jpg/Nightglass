@@ -1,0 +1,19 @@
+id: ofw_domainiq
+name: domainIQ
+category: domains
+description: Comprehensive domain intelligence platform offering reverse lookups,
+  ownership history, and related domain discovery. Trusted by government agencies,
+  domain investors, and legal firms.
+limitations: From OSINT Framework (Whois Records; freemium). What you enter goes to
+  this site.
+official_url: https://www.domainiq.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

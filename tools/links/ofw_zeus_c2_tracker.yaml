@@ -1,0 +1,18 @@
+id: ofw_zeus_c2_tracker
+name: Zeus C2 Tracker
+category: domains
+description: abuse.ch project tracking Zeus command and control servers with domain
+  and IP blocklists.
+limitations: From OSINT Framework (Domain Blacklists; free). What you enter goes to
+  this site.
+official_url: https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

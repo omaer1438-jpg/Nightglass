@@ -1,0 +1,18 @@
+id: ofw_belati
+name: Belati
+category: domains
+description: Open-source OSINT data collection and automation framework for gathering
+  information from multiple sources.
+limitations: From OSINT Framework (Tools; free). Install and run it yourself after
+  reviewing it.
+official_url: https://github.com/aancw/Belati
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

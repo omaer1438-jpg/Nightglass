@@ -1,0 +1,18 @@
+id: ofw_twitter_advanced_search
+name: Twitter Advanced Search
+category: social
+description: Built-in X/Twitter advanced search interface supporting operator-based
+  filtering for users, terms, dates, and engagement constraints.
+limitations: From OSINT Framework (Twitter > Search; free). What you enter goes to
+  this site.
+official_url: https://twitter.com/search-advanced
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

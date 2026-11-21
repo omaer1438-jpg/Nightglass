@@ -1,0 +1,18 @@
+id: ofw_email_reputation
+name: Email Reputation
+category: email
+description: Tool that checks email reputation, risk scoring, and breach history to
+  identify phishing emails, compromised accounts, and risky addresses.
+limitations: From OSINT Framework (Email Verification; free). What you enter goes
+  to this site.
+official_url: https://emailrep.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

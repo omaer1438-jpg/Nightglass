@@ -1,0 +1,20 @@
+id: ofw_ofac_sanctions_list_search
+name: OFAC Sanctions List Search
+category: threat
+description: U.S. Treasury tool for searching SDN and sanctions lists with approximate
+  string matching.
+limitations: From OSINT Framework (Terrorism & Extremism > Sanctions & Watchlists;
+  free). What you enter goes to this site.
+official_url: https://sanctionssearch.ofac.treas.gov/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

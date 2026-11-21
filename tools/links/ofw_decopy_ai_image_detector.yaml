@@ -1,0 +1,18 @@
+id: ofw_decopy_ai_image_detector
+name: Decopy AI Image Detector
+category: ai
+description: AI image detection tool that analyzes photographs and graphics to identify
+  signatures of AI generation from models like Midjourney, DALL-E, and Stable Diffusion.
+limitations: From OSINT Framework (AI Detectors; freemium). What you enter goes to
+  this site.
+official_url: https://decopy.ai/ai-image-detector/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

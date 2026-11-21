@@ -1,0 +1,14 @@
+# ICANN Lookup - tool manifest (schema: core/manifest.py)
+id: icann_lookup
+name: "ICANN Lookup"
+category: domains
+description: "Domain registration data from the registries (RDAP)."
+limitations: "Much registration data is redacted for privacy."
+official_url: https://lookup.icann.org
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: browser
+review_date: 2026-10-01

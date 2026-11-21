@@ -1,0 +1,19 @@
+id: ofw_un_security_council_consolidated_lis
+name: UN Security Council Consolidated List
+category: threat
+description: Official UN Security Council list of designated individuals and entities.
+limitations: From OSINT Framework (Terrorism & Extremism > Sanctions & Watchlists;
+  free). What you enter goes to this site.
+official_url: https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

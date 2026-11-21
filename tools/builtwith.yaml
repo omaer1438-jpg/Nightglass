@@ -1,0 +1,14 @@
+# BuiltWith - tool manifest (schema: core/manifest.py)
+id: builtwith
+name: "BuiltWith"
+category: web
+description: "Technology profile of a website."
+limitations: "Detail is limited without an account. Detection is based on public signals."
+official_url: https://builtwith.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, url]
+launch:
+  kind: browser
+review_date: 2026-11-01

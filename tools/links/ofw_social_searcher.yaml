@@ -1,0 +1,19 @@
+id: ofw_social_searcher
+name: Social Searcher
+category: social
+description: Multi-platform social media search engine aggregating content from Twitter,
+  Facebook, Instagram, Tumblr, and other networks. Supports real-time and historical
+  search.
+limitations: From OSINT Framework (Search; freemium). What you enter goes to this
+  site.
+official_url: https://www.social-searcher.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

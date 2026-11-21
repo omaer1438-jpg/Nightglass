@@ -1,0 +1,19 @@
+id: ofw_watchguard_reputationauthority
+name: WatchGuard ReputationAuthority
+category: domains
+description: In-the-cloud reputation monitoring service analyzing URL and IP threat
+  risk. Assigns reputation scores between 1-100 using data from global sources and
+  deployed systems.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://www.reputationauthority.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

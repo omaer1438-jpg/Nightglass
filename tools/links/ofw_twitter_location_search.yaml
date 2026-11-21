@@ -1,0 +1,18 @@
+id: ofw_twitter_location_search
+name: Twitter Location Search
+category: social
+description: Operator-based X/Twitter search workflow for geotagged content using
+  `geocode:` and location-focused query parameters.
+limitations: From OSINT Framework (Twitter > Search; free). What you enter goes to
+  this site.
+official_url: https://twitter.com/search?q=geocode%3A36.1143855%2C-115.1727518%2C1km&src=typd
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

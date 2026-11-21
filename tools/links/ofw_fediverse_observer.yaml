@@ -1,0 +1,19 @@
+id: ofw_fediverse_observer
+name: Fediverse Observer
+category: social
+description: Real-time dashboard tracking Fediverse instances across Mastodon, Pleroma,
+  Misskey, PeerTube, and other ActivityPub platforms with server statistics and geographic
+  mapping.
+limitations: From OSINT Framework (Fediverse/Mastodon; free). What you enter goes
+  to this site.
+official_url: https://fediverse.observer/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

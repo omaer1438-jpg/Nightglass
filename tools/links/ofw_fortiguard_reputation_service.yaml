@@ -1,0 +1,19 @@
+id: ofw_fortiguard_reputation_service
+name: FortiGuard Reputation Service
+category: domains
+description: Fortinet's IP reputation service aggregating malicious source IP data
+  from global threat sensors and collaborators. Blocks botnets, DDoS sources, and
+  IPs associated with phishing, scanning, and malware.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://fortiguard.com/iprep
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

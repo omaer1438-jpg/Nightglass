@@ -1,0 +1,18 @@
+id: ofw_delicious
+name: Delicious
+category: social
+description: Social bookmarking platform where users share and discover web links
+  with tags. Supports user profile and bookmark search.
+limitations: From OSINT Framework (Other Social Networks; free). What you enter goes
+  to this site.
+official_url: https://del.icio.us/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

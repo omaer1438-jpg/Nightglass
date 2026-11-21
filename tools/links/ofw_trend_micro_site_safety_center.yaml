@@ -1,0 +1,19 @@
+id: ofw_trend_micro_site_safety_center
+name: Trend Micro Site Safety Center
+category: domains
+description: Free service that checks website safety ratings from Trend Micro's research
+  and reputation sources. Identifies websites with malware, phishing activity, or
+  suspicious behavior.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://global.sitesafety.trendmicro.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

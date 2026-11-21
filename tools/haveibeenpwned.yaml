@@ -1,0 +1,15 @@
+# Have I Been Pwned - tool manifest (schema: core/manifest.py)
+id: haveibeenpwned
+name: "Have I Been Pwned"
+category: email
+description: "Breaches an email address appears in; Pwned Passwords range checks."
+limitations: "The email API needs a paid key and has separate terms. Never store or display passwords."
+official_url: https://haveibeenpwned.com
+license: null   # verify before integration
+open_source: false
+labels: [external, api_key]
+target_types: [email]
+api_key: required
+launch:
+  kind: web_api
+review_date: 2026-10-01

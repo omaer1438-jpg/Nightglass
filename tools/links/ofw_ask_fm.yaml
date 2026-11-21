@@ -1,0 +1,18 @@
+id: ofw_ask_fm
+name: Ask FM
+category: social
+description: Q&A social network where users answer anonymous and public questions.
+  Supports direct profile lookup via URL manipulation.
+limitations: From OSINT Framework (Other Social Networks; free). What you enter goes
+  to this site.
+official_url: https://ask.fm/%3Cusername%3E
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

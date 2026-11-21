@@ -1,0 +1,18 @@
+id: ofw_fiddler
+name: Fiddler
+category: general
+description: Web debugging proxy that monitors, inspects, and logs HTTPS/WebSocket
+  traffic between a computer and the internet for analysis.
+limitations: From OSINT Framework (Web Browsing; freemium). What you enter goes to
+  this site.
+official_url: https://www.telerik.com/download/fiddler
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_twitonomy
+name: Twitonomy
+category: social
+description: Twitter analytics platform for profile activity, hashtag usage, and follower/following
+  behavior over time.
+limitations: From OSINT Framework (Twitter > Analytics > Profile; free). What you
+  enter goes to this site.
+official_url: https://www.twitonomy.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

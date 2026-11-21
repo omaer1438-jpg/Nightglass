@@ -1,0 +1,19 @@
+id: ofw_https_openphish_com_feed_txt
+name: https://openphish.com/feed.txt
+category: threat
+description: Real-time phishing URL feed providing confirmed malicious phishing sites
+  updated continuously.
+limitations: From OSINT Framework (Phishing; free). What you enter goes to this site.
+official_url: https://openphish.com/feed.txt
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

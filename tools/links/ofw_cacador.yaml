@@ -1,0 +1,20 @@
+id: ofw_cacador
+name: Cacador
+category: threat
+description: Python tool for indicator extraction and deduplication from threat intelligence
+  documents.
+limitations: From OSINT Framework (IOC Tools; free). Install and run it yourself after
+  reviewing it.
+official_url: https://github.com/sroberts/cacador
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

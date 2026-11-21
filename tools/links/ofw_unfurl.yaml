@@ -1,0 +1,18 @@
+id: ofw_unfurl
+name: Unfurl
+category: social
+description: Forensic parser that extracts and visualizes metadata components embedded
+  in URLs.
+limitations: From OSINT Framework (TikTok; free). Install and run it yourself after
+  reviewing it.
+official_url: https://github.com/obsidianforensics/unfurl
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

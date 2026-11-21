@@ -1,0 +1,19 @@
+id: ofw_findsubdomains
+name: FindSubDomains
+category: domains
+description: Free web-based automated subdomain discovery tool with filtering and
+  analysis capabilities, showing organization names, relationships, and top subdomain
+  statistics.
+limitations: From OSINT Framework (Subdomains; free). What you enter goes to this
+  site.
+official_url: https://findsubdomains.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

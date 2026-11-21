@@ -1,0 +1,17 @@
+id: ofw_team_cymru_ip_to_asn
+name: Team Cymru IP to ASN
+category: ip
+description: IP to ASN mapping tool providing autonomous system ownership and prefix
+  information.
+limitations: From OSINT Framework (IPv4; free). What you enter goes to this site.
+official_url: https://asn.cymru.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

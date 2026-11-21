@@ -1,0 +1,14 @@
+# GreyNoise Visualizer - tool manifest (schema: core/manifest.py)
+id: greynoise
+name: "GreyNoise Visualizer"
+category: ip
+description: "Shows whether an IP is mass-scanning the internet."
+limitations: "Free lookups are limited. Absence from the data proves nothing."
+official_url: https://viz.greynoise.io
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [ip]
+launch:
+  kind: browser
+review_date: 2026-11-01

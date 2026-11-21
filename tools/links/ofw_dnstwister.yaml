@@ -1,0 +1,18 @@
+id: ofw_dnstwister
+name: dnstwister
+category: domains
+description: Web-based domain permutation tool with free lookup and paid monitoring
+  plans for typosquatting detection.
+limitations: From OSINT Framework (Typosquatting; freemium). What you enter goes to
+  this site.
+official_url: https://dnstwister.report/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

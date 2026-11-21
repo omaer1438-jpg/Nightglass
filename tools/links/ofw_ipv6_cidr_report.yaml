@@ -1,0 +1,16 @@
+id: ofw_ipv6_cidr_report
+name: IPv6 CIDR Report
+category: ip
+description: CIDR block analysis tool for IPv6 address ranges and subnet enumeration.
+limitations: From OSINT Framework (IPv6; free). What you enter goes to this site.
+official_url: https://www.cidr-report.org/v6/as2.0/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

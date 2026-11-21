@@ -1,0 +1,18 @@
+id: ofw_wireshark
+name: Wireshark
+category: ip
+description: Open-source network packet analyzer for deep packet inspection and network
+  troubleshooting.
+limitations: From OSINT Framework (Network Analysis Tools; free). What you enter goes
+  to this site.
+official_url: https://www.wireshark.org/download.html
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

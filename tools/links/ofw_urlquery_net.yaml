@@ -1,0 +1,19 @@
+id: ofw_urlquery_net
+name: UrlQuery.net
+category: domains
+description: Free online URL scanner that analyzes webpages for malware, suspicious
+  elements, and phishing threats. Provides comprehensive threat detection reports
+  with threat briefs on emerging campaigns.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://urlquery.net/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

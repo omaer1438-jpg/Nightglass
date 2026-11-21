@@ -1,0 +1,29 @@
+# SpiderFoot - tool manifest (schema: core/manifest.py)
+id: spiderfoot
+name: "SpiderFoot"
+category: general
+description: "OSINT automation and correlation (open-source edition)."
+limitations: "Slow on Windows: it often reaches the 5 minute limit and keeps what it found. Subfinder and theHarvester are much faster."
+official_url: https://github.com/smicallef/spiderfoot
+license: "MIT"
+open_source: true
+provider: "crt.sh, ThreatMiner, Sublist3r's API and your DNS resolver"
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: subprocess
+  venv: envs/spiderfoot
+  timeout_s: 300
+  max_output_kb: 8192
+  own_home: true    # it keeps its scan database and logs in the home folder
+  stderr: file      # thousands of 'Logging error / queue.Full' tracebacks on Windows; results are on stdout
+  # Not on PyPI. Install it yourself (README): clone into envs/spiderfoot/app, then
+  #   envs/spiderfoot/Scripts/python -m pip install -r envs/spiderfoot/app/requirements.txt
+  script: envs/spiderfoot/app/sf.py
+  cwd: script            # it finds its modules relative to its own folder
+  # Verified against SpiderFoot 4.0.0. A short fixed module list: co-hosting modules such as
+  # sfp_hackertarget wander into unrelated sites, outside any case's scope.
+  args: ["-s", "{domain}", "-m", "sfp_crt,sfp_threatminer,sfp_sublist3r,sfp_dnsresolve",
+         "-F", "INTERNET_NAME,EMAILADDR", "-o", "json", "-q"]
+parser: adapters.spiderfoot:parse
+review_date: 2026-10-01

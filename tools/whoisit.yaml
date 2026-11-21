@@ -1,0 +1,14 @@
+# whoisit - tool manifest (schema: core/manifest.py)
+id: whoisit
+name: "whoisit"
+category: domains
+description: "RDAP client for domains and IP networks (modern WHOIS)."
+limitations: "Python library, for reference. Module 06 WHOIS / RDAP already does these lookups."
+official_url: https://github.com/meeb/whoisit
+license: null   # verify before integration
+open_source: true
+labels: [external, passive]
+target_types: [domain, ip]
+launch:
+  kind: browser
+review_date: 2026-10-01

@@ -1,0 +1,18 @@
+id: ofw_geosocial_footprint
+name: GeoSocial Footprint
+category: social
+description: Geolocation-focused social media analysis service for mapping public
+  location traces and movement patterns.
+limitations: From OSINT Framework (Twitter > Location / Mapping; freemium). What you
+  enter goes to this site.
+official_url: https://geosocialfootprint.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

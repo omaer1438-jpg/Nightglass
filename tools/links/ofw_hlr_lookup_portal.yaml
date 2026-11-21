@@ -1,0 +1,18 @@
+id: ofw_hlr_lookup_portal
+name: HLR Lookup Portal
+category: phone
+description: HLR lookup service for telecom reachability, network, and carrier status
+  checks.
+limitations: From OSINT Framework (Telephone Numbers; paid). What you enter goes to
+  this site.
+official_url: https://www.hlr-lookups.com/en/start
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- phone
+launch:
+  kind: browser
+review_date: '2026-11-02'

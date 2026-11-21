@@ -1,0 +1,25 @@
+# ignorant - tool manifest (schema: core/manifest.py)
+id: ignorant
+name: "ignorant"
+category: phone
+description: "Hints at whether a phone number is registered on Instagram, Snapchat and Amazon, using their login and signup checks."
+limitations: "Active: it sends the number to three companies' account flows. Use only with authorization. Off by default. A hit means a form said the number is in use, not who owns it; the sites change often, so errors are common."
+official_url: https://github.com/megadose/ignorant
+license: "GPL-3.0"
+open_source: true
+provider: "Instagram, Snapchat and Amazon login and signup forms (account-exists checks)"
+labels: [external, active]
+target_types: [phone]
+active_setting: active.phone_registration   # Settings switch, off by default
+launch:
+  kind: subprocess
+  venv: envs/ignorant
+  timeout_s: 120
+  max_output_kb: 256
+  # Verified against ignorant 1.2. It wants the country code and the national number apart, so the
+  # validated E.164 number is split by the ITU code table (1 digit: 1, 7; the listed 2-digit codes; else 3).
+  # Its check_update() would query PyPI and pip-upgrade itself on every run: replaced with a no-op.
+  args: ['-c', 'import re, sys, trio, ignorant.core as c; m = re.match(r"\+(1|7|2[07]|3[0-469]|4[013-9]|5[1-8]|6[0-6]|8[1246]|9[0-58]|\d\d\d)(\d+)$", sys.argv[1]); sys.argv[1:2] = [m[1], m[2]]; c.check_update = lambda: None; trio.run(c.maincore)',
+         "{phone}", "--no-color", "--no-clear", "-T", "15"]
+parser: adapters.ignorant:parse
+review_date: 2026-11-20

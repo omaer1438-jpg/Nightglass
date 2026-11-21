@@ -1,0 +1,18 @@
+id: ofw_wappalyzer
+name: Wappalyzer
+category: domains
+description: Technology detection platform and browser tooling for identifying frameworks,
+  CMS, and SaaS usage.
+limitations: From OSINT Framework (Discovery; freemium). What you enter goes to this
+  site.
+official_url: https://www.wappalyzer.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

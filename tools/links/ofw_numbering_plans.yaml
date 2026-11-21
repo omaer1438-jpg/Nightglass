@@ -1,0 +1,18 @@
+id: ofw_numbering_plans
+name: Numbering Plans
+category: phone
+description: International numbering reference for E.164 plans, carrier codes, and
+  dialing metadata.
+limitations: From OSINT Framework (International; free). What you enter goes to this
+  site.
+official_url: https://www.numberingplans.com/?page=analysis&sub=phonenr
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- phone
+launch:
+  kind: browser
+review_date: '2026-11-02'

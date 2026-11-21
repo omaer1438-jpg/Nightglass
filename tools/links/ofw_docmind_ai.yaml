@@ -1,0 +1,18 @@
+id: ofw_docmind_ai
+name: DocMind AI
+category: ai
+description: Open-source local LLM-powered document analysis tool for querying and
+  summarizing documents using locally running language models via LangChain.
+limitations: From OSINT Framework (LLM Enabled Tools; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/BjornMelin/docmind-ai-llm
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

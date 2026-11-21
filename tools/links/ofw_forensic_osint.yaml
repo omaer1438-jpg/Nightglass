@@ -1,0 +1,18 @@
+id: ofw_forensic_osint
+name: Forensic OSINT
+category: general
+description: Chrome extension for full-page web capture with evidence preservation;
+  timestamps and disclosure-ready exports for legal investigations.
+limitations: From OSINT Framework (Web Browsing; free). What you enter goes to this
+  site.
+official_url: https://www.forensicosint.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_github_user
+name: Github User
+category: usernames
+description: Queries the GitHub public Events API to retrieve a user's recent public
+  activity, including pushes, pull requests, issues, and other repository events.
+limitations: From OSINT Framework (Specific Sites; free). Install and run it yourself
+  after reviewing it.
+official_url: https://api.github.com/users/%3Cusername%3E/events/public
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

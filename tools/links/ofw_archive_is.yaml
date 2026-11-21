@@ -1,0 +1,18 @@
+id: ofw_archive_is
+name: Archive.is
+category: general
+description: Web archiving service that creates instant permanent snapshots of webpages
+  as they appear at capture time.
+limitations: From OSINT Framework (Web Browsing; free). What you enter goes to this
+  site.
+official_url: https://archive.is/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

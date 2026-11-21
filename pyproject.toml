@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nightglass"
+version = "1.0.0"
+description = "Windows desktop OSINT workbench"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "All rights reserved" }
+classifiers = ["Private :: Do Not Upload"]
+dependencies = [
+    "PySide6>=6.7",
+    "pydantic>=2.6",
+    "PyYAML>=6.0",
+    "keyring>=25",
+    "httpx>=0.27",
+    "dnspython>=2.6",
+    "phonenumbers>=8.13",
+    "cryptography>=42",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-qt>=4.4",
+    "pyinstaller>=6",
+]
+
+[project.gui-scripts]
+nightglass = "app.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["app*", "core*", "adapters*"]
+exclude = ["tests*", "scripts*"]
+
+[tool.setuptools.package-data]
+app = ["theme.qss", "assets/*.svg", "assets/*.ico", "assets/fonts/*", "assets/logo/*.svg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+qt_api = "pyside6"
+addopts = "-ra"

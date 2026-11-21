@@ -1,0 +1,18 @@
+id: ofw_urlcrazy
+name: URLCrazy
+category: domains
+description: Ruby-based typosquatting domain generator supporting 15 variation types
+  and 8000+ common misspellings.
+limitations: From OSINT Framework (Typosquatting; free). What you enter goes to this
+  site.
+official_url: https://www.morningstarsecurity.com/research/urlcrazy
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

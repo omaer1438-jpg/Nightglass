@@ -1,0 +1,14 @@
+# Censys Search - tool manifest (schema: core/manifest.py)
+id: censys
+name: "Censys Search"
+category: ip
+description: "Search internet hosts and TLS certificates."
+limitations: "Needs a free account for regular use. Results are a snapshot and may be out of date."
+official_url: https://search.censys.io
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [ip, domain]
+launch:
+  kind: browser
+review_date: 2026-11-01

@@ -1,0 +1,18 @@
+id: ofw_alienvault_open_threat_exchange
+name: AlienVault Open Threat Exchange
+category: domains
+description: Community-driven threat intelligence platform enabling collaborative
+  defense with 180K+ participants sharing 19M+ threats daily.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://otx.alienvault.com/browse/pulses/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

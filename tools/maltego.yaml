@@ -1,0 +1,14 @@
+# Maltego - tool manifest (schema: core/manifest.py)
+id: maltego
+name: "Maltego"
+category: general
+description: "Graph tool that shows relationships between people, domains and infrastructure."
+limitations: "Desktop app with its own account and licensing. Install it yourself from the official site."
+official_url: https://www.maltego.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, email, username]
+launch:
+  kind: browser
+review_date: 2026-11-01

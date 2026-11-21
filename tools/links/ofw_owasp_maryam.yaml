@@ -1,0 +1,18 @@
+id: ofw_owasp_maryam
+name: OWASP Maryam
+category: domains
+description: Modular OWASP OSINT framework with footprinting and search modules for
+  multi-source reconnaissance.
+limitations: From OSINT Framework (Subdomains; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/saeeddhqan/Maryam
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_google_street_view_hyperlapse
+name: Google Street View - Hyperlapse
+category: general
+description: Tool for creating timelapse and hyperlapse videos from Google Street
+  View images along selected routes for geographic visualization.
+limitations: From OSINT Framework (Map Locations; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/TeehanLax/Hyperlapse.js
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

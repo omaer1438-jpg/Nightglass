@@ -1,0 +1,18 @@
+id: ofw_foller_me_analytics
+name: Foller.me Analytics
+category: social
+description: Web analytics tool for summarizing public Twitter profile behavior, including
+  hashtags, mentions, topics, and activity cadence.
+limitations: From OSINT Framework (Twitter > Analytics > Profile; free). What you
+  enter goes to this site.
+official_url: https://foller.me/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

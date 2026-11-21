@@ -1,0 +1,18 @@
+id: ofw_website_informer
+name: Website Informer
+category: domains
+description: Free domain and website information aggregator providing visitor statistics,
+  safety status, Alexa rankings, ownership data, and technical details about websites.
+limitations: From OSINT Framework (Whois Records; free). What you enter goes to this
+  site.
+official_url: https://website.informer.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

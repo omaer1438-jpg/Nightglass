@@ -1,0 +1,16 @@
+id: ofw_top_gg
+name: "Top.gg"
+category: social
+description: "Public Discord bot and app discovery platform, with rankings, server counts and listings."
+limitations: "From OSINT Framework (Online Communities > Discord Servers; free). Public listings only."
+official_url: https://top.gg/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: 2026-11-03

@@ -1,0 +1,18 @@
+id: ofw_urlscan_io
+name: urlscan.io
+category: domains
+description: URL and domain analysis service that captures page loads, requests, and
+  security-relevant artifacts.
+limitations: From OSINT Framework (Discovery; freemium). What you enter goes to this
+  site.
+official_url: https://urlscan.io/search/#*
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

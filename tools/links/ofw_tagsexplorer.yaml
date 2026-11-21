@@ -1,0 +1,18 @@
+id: ofw_tagsexplorer
+name: TAGSExplorer
+category: social
+description: Browser-based visualization layer for TAGS archives that maps mentions,
+  replies, and retweet relationships from collected Twitter datasets.
+limitations: From OSINT Framework (Twitter > Analytics > Hashtag; free). What you
+  enter goes to this site.
+official_url: https://tags.hawksey.info/tagsexplorer/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

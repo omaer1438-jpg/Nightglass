@@ -1,0 +1,19 @@
+id: ofw_bluecoat_webpulse
+name: BlueCoat WebPulse
+category: domains
+description: Web reputation filtering service rating URLs with 50+ language support.
+  Processes 180+ million rating requests daily with Dynamic Link Analysis for attack
+  injection detection.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://sitereview.bluecoat.com/sitereview.jsp
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

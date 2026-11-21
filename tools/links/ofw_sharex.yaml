@@ -1,0 +1,18 @@
+id: ofw_sharex
+name: ShareX
+category: general
+description: Free and open-source screenshot and screen recording tool for Windows
+  supporting 80+ upload destinations and extensive automation workflows.
+limitations: From OSINT Framework (Screen Capture; free). What you enter goes to this
+  site.
+official_url: https://getsharex.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

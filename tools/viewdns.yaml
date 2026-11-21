@@ -1,0 +1,14 @@
+# ViewDNS.info - tool manifest (schema: core/manifest.py)
+id: viewdns
+name: "ViewDNS.info"
+category: domains
+description: "Collection of DNS, reverse IP and WHOIS lookup tools."
+limitations: "Results come from third-party datasets and may be incomplete."
+official_url: https://viewdns.info
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, ip]
+launch:
+  kind: browser
+review_date: 2026-11-01

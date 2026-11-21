@@ -1,0 +1,17 @@
+id: ofw_hacker_target_reverse_dns
+name: Hacker Target - Reverse DNS
+category: ip
+description: Reverse DNS lookup tool and API finding domain names associated with
+  IP addresses.
+limitations: From OSINT Framework (IPv4; freemium). What you enter goes to this site.
+official_url: https://hackertarget.com/reverse-dns-lookup/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

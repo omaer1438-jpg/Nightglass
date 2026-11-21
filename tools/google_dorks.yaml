@@ -1,0 +1,14 @@
+# Google Hacking Database - tool manifest (schema: core/manifest.py)
+id: google_dorks
+name: "Google Hacking Database"
+category: web
+description: "Curated Google search operators (dorks) for finding exposed public pages."
+limitations: "Finding a page does not authorize access to it. Read only what is public."
+official_url: https://www.exploit-db.com/google-hacking-database
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, url]
+launch:
+  kind: browser
+review_date: 2026-11-01

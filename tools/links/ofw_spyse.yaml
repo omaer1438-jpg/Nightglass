@@ -1,0 +1,19 @@
+id: ofw_spyse
+name: Spyse
+category: domains
+description: Internet assets registry providing certificate search, domain intelligence,
+  and vulnerability discovery. Scans domains, subdomains, certificates, emails, and
+  open ports across the global internet.
+limitations: From OSINT Framework (Certificate Search; freemium). What you enter goes
+  to this site.
+official_url: https://spyse.com/search/certificate
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

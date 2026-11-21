@@ -1,0 +1,20 @@
+id: ofw_overview
+name: Overview
+category: general
+description: Self-hosted document analysis and management platform for investigating
+  large document collections through search, tagging, and plugin-based analysis with
+  full data privacy.
+limitations: From OSINT Framework (Tools; free). What you enter goes to this site.
+official_url: https://www.overviewdocs.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- username
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

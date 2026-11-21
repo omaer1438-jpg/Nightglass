@@ -1,0 +1,18 @@
+id: ofw_criminal_ip_search
+name: Criminal IP Search
+category: domains
+description: Cyber threat intelligence search engine for exposed assets, domains,
+  vulnerabilities, and risk indicators.
+limitations: From OSINT Framework (Discovery; freemium). What you enter goes to this
+  site.
+official_url: https://www.criminalip.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

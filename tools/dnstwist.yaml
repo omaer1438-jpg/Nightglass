@@ -1,0 +1,22 @@
+# dnstwist - tool manifest (schema: core/manifest.py)
+id: dnstwist
+name: "dnstwist"
+category: domains
+description: "Finds registered domains that imitate a domain (typos, homoglyphs, added words)."
+limitations: "Checks DNS only. A similar name is not proof of bad intent. It prints its results only at the end: a run stopped by the 5 minute limit keeps nothing."
+official_url: https://github.com/elceef/dnstwist
+license: "Apache-2.0"
+open_source: true
+provider: "Your DNS resolver (it looks up each similar name)"
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: subprocess
+  venv: envs/dnstwist
+  timeout_s: 300
+  max_output_kb: 4096
+  # Verified against dnstwist 20250130. DNS only: no --banners, --geoip, --whois, --lsh or --phash,
+  # which would contact the look-alike sites or other services.
+  args: ["-m", "dnstwist", "--registered", "--format", "json", "{domain}"]
+parser: adapters.lookalike:parse
+review_date: 2026-11-01

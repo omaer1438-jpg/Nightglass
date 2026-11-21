@@ -1,0 +1,17 @@
+id: ofw_reverse_report
+name: Reverse.report
+category: ip
+description: Comprehensive reverse lookup tool for IP to domain, email, and phone
+  number associations.
+limitations: From OSINT Framework (IPv4; freemium). What you enter goes to this site.
+official_url: https://reverse.report/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

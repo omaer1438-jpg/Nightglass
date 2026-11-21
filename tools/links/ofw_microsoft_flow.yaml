@@ -1,0 +1,20 @@
+id: ofw_microsoft_flow
+name: Microsoft Flow
+category: general
+description: Microsoft cloud workflow automation platform enabling complex multi-step
+  processes with 1000+ pre-built connectors for integrating OSINT workflows.
+limitations: From OSINT Framework (OSINT Automation; freemium). What you enter goes
+  to this site.
+official_url: https://flow.microsoft.com/en-us/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- username
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

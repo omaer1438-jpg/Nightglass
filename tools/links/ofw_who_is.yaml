@@ -1,0 +1,19 @@
+id: ofw_who_is
+name: Who.is
+category: domains
+description: Comprehensive WHOIS and RDAP lookup service with large database of domain
+  registration, DNS records, and IP information. Provides both current and historical
+  data.
+limitations: From OSINT Framework (Whois Records; free). What you enter goes to this
+  site.
+official_url: https://who.is/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

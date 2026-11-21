@@ -1,0 +1,18 @@
+id: ofw_voilanorbert
+name: VoilaNorbert
+category: email
+description: Email finder and verifier with 98% success rate that discovers business
+  emails by company/domain, person name, or LinkedIn profile with bulk upload capability.
+limitations: From OSINT Framework (Email Search; freemium). What you enter goes to
+  this site.
+official_url: https://www.voilanorbert.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

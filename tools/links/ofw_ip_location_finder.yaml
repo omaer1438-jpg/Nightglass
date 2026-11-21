@@ -1,0 +1,17 @@
+id: ofw_ip_location_finder
+name: IP Location Finder
+category: ip
+description: Web-based tool for IP geolocation with maps and detailed location information.
+limitations: From OSINT Framework (Geolocation; free). What you enter goes to this
+  site.
+official_url: https://www.iplocation.net/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

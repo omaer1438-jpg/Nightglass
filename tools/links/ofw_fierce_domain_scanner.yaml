@@ -1,0 +1,18 @@
+id: ofw_fierce_domain_scanner
+name: Fierce Domain Scanner
+category: domains
+description: DNS reconnaissance tool focused on subdomain discovery and non-contiguous
+  IP space mapping.
+limitations: From OSINT Framework (Subdomains; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/davidpepper/fierce-domain-scanner
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

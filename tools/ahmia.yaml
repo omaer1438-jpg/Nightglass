@@ -1,0 +1,14 @@
+# Ahmia - tool manifest (schema: core/manifest.py)
+id: ahmia
+name: "Ahmia"
+category: web
+description: "Search engine for Tor hidden services, reachable from a normal browser."
+limitations: "Indexes public onion sites only and filters abuse content. Treat every result as unverified."
+official_url: https://ahmia.fi
+license: null
+open_source: true
+labels: [external, passive]
+target_types: [domain, username, email]
+launch:
+  kind: browser
+review_date: 2026-11-01

@@ -1,0 +1,18 @@
+id: ofw_critical_stack_intel
+name: Critical Stack Intel
+category: domains
+description: Free threat intelligence feeds integrated with Bro/Zeek network security
+  monitoring systems.
+limitations: From OSINT Framework (Domain Blacklists; free). What you enter goes to
+  this site.
+official_url: https://intel.criticalstack.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_ritetag
+name: RiteTag
+category: social
+description: Hashtag intelligence platform that scores and recommends social tags
+  based on trend velocity and engagement potential.
+limitations: From OSINT Framework (Twitter > Analytics > Hashtag; freemium). What
+  you enter goes to this site.
+official_url: https://ritetag.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

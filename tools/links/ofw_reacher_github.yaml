@@ -1,0 +1,18 @@
+id: ofw_reacher_github
+name: Reacher Github
+category: email
+description: Open-source Rust-based email verification API that checks email deliverability
+  without sending messages, detecting catch-all and disposable addresses.
+limitations: From OSINT Framework (Email Verification; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/reacherhq/check-if-email-exists
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

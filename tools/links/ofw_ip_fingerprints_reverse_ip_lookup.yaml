@@ -1,0 +1,17 @@
+id: ofw_ip_fingerprints_reverse_ip_lookup
+name: IP Fingerprints - Reverse IP Lookup
+category: ip
+description: Find all domains hosted on a shared IP address through reverse IP lookup.
+limitations: From OSINT Framework (Neighbor Domains; free). What you enter goes to
+  this site.
+official_url: https://ipfingerprints.com/reverseip.php
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

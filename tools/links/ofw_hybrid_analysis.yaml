@@ -1,0 +1,20 @@
+id: ofw_hybrid_analysis
+name: Hybrid Analysis
+category: threat
+description: Free automated malware analysis service powered by CrowdStrike Falcon
+  Sandbox. Combines runtime data with memory dump analysis to extract execution pathways
+  and IOCs for evasive malware.
+limitations: From OSINT Framework (Hosted Automated Analysis; freemium). What you
+  enter goes to this site.
+official_url: https://hybrid-analysis.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_cisco_talos
+name: Cisco Talos
+category: domains
+description: Cisco's comprehensive IP and domain reputation intelligence system with
+  real-time threat detection spanning millions of sensors.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://talosintelligence.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

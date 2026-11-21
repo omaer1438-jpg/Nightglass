@@ -1,0 +1,22 @@
+# Sherlock - tool manifest (schema: core/manifest.py)
+id: sherlock
+name: "Sherlock"
+category: usernames
+description: "Checks a username across hundreds of public sites."
+limitations: "Hits are leads, not proof of ownership; false positives are common. No hit does not prove an account doesn't exist."
+official_url: https://github.com/sherlock-project/sherlock
+license: "MIT"
+open_source: true
+provider: "About 400 public websites from Sherlock's bundled site list"
+labels: [external, passive]
+target_types: [username]
+launch:
+  kind: subprocess
+  venv: envs/sherlock
+  timeout_s: 300
+  max_output_kb: 2048
+  # Verified against Sherlock 0.16.2: --local uses the bundled site list, --print-all
+  # also reports not-found and blocked sites so results can be counted.
+  args: ["-m", "sherlock_project", "{username}", "--local", "--no-color", "--print-all", "--timeout", "20"]
+parser: adapters.sherlock:parse
+review_date: 2026-10-01

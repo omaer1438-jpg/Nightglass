@@ -1,0 +1,18 @@
+id: ofw_vk
+name: VK
+category: social
+description: Largest Russian-language social network with features similar to Facebook.
+  Supports user search and direct profile access.
+limitations: From OSINT Framework (Other Social Networks; free). What you enter goes
+  to this site.
+official_url: https://vk.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

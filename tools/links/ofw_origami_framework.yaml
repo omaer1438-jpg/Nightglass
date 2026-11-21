@@ -1,0 +1,18 @@
+id: ofw_origami_framework
+name: Origami Framework
+category: threat
+description: Ruby framework for parsing, analyzing, and forging PDF documents. Includes
+  PDF Walker GUI and PDFcop heuristic checker for detecting dangerous PDF content.
+limitations: From OSINT Framework (PDFs; free). What you enter goes to this site.
+official_url: https://code.google.com/archive/p/origami-pdf/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

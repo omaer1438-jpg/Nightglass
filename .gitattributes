@@ -1,0 +1,7 @@
+# Keep LF everywhere: no CRLF conversion warnings, same bytes on every machine.
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.xlsx binary
+*.exe binary
+*.ico binary

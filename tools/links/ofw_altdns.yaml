@@ -1,0 +1,18 @@
+id: ofw_altdns
+name: AltDNS
+category: domains
+description: Permutation-based DNS tool that generates and resolves alternative subdomains
+  from known names.
+limitations: From OSINT Framework (Subdomains; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/infosec-au/altdns
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

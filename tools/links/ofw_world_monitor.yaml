@@ -1,0 +1,18 @@
+id: ofw_world_monitor
+name: World Monitor
+category: ai
+description: AI-powered geopolitical event monitoring and intelligence platform that
+  tracks global news and events relevant to national security and business risk.
+limitations: From OSINT Framework (LLM Enabled Tools; freemium). What you enter goes
+  to this site.
+official_url: https://www.worldmonitor.app/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

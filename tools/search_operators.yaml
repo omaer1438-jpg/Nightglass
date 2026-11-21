@@ -1,0 +1,14 @@
+# Search operators - tool manifest (schema: core/manifest.py)
+id: search_operators
+name: "Search operators"
+category: web
+description: "Web search with site: and filetype: queries."
+limitations: "Searches are sent to the search engine and may be logged."
+official_url: https://www.google.com
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [username, email, domain, other]
+launch:
+  kind: browser
+review_date: 2026-10-01

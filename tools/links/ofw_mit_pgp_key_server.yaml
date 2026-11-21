@@ -1,0 +1,19 @@
+id: ofw_mit_pgp_key_server
+name: MIT PGP Key Server
+category: usernames
+description: MIT PGP Public Key Server for searching, submitting, and removing PGP
+  public keys. Look up keys by name, email, or key ID to find associated cryptographic
+  identities.
+limitations: From OSINT Framework (Specific Sites; free). What you enter goes to this
+  site.
+official_url: https://pgp.mit.edu/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,20 @@
+id: ofw_bot_scout
+name: Bot Scout
+category: threat
+description: Service tracking bot signatures (names, IPs, emails) to prevent automated
+  spam and abuse.
+limitations: From OSINT Framework (Threat Feeds & Platforms; freemium). What you enter
+  goes to this site.
+official_url: https://botscout.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

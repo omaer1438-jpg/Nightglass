@@ -1,0 +1,18 @@
+id: ofw_tinder_usernames
+name: Tinder Usernames
+category: usernames
+description: Accesses a Tinder user's public web profile via their username. The gotinder.com
+  domain redirects to tinder.com.
+limitations: From OSINT Framework (Specific Sites; free). What you enter goes to this
+  site.
+official_url: https://www.gotinder.com/@%3Cusername%3E
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

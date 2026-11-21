@@ -1,0 +1,18 @@
+id: ofw_reacher_demo
+name: Reacher Demo
+category: email
+description: Hosted demo of the Reacher email verification API allowing free testing
+  of email validation and deliverability checks online.
+limitations: From OSINT Framework (Email Verification; free). What you enter goes
+  to this site.
+official_url: https://reacher.email
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

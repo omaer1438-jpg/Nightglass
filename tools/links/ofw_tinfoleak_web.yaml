@@ -1,0 +1,18 @@
+id: ofw_tinfoleak_web
+name: Tinfoleak Web
+category: social
+description: Web-based platform for Twitter/X intelligence analysis, user profiling,
+  and geolocation-oriented review of public activity.
+limitations: From OSINT Framework (Twitter > Analytics; freemium). What you enter
+  goes to this site.
+official_url: https://tinfoleak.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

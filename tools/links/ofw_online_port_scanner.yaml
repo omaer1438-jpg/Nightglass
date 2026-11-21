@@ -1,0 +1,18 @@
+id: ofw_online_port_scanner
+name: Online Port scanner
+category: ip
+description: Web-based port scanner checking open ports on target IP addresses without
+  installation.
+limitations: From OSINT Framework (Host / Port Discovery; free). What you enter goes
+  to this site.
+official_url: https://portscanner.online/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

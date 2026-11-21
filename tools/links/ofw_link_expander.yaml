@@ -1,0 +1,17 @@
+id: ofw_link_expander
+name: Link Expander
+category: domains
+description: Short-link expansion tool that resolves redirects to destination URLs.
+limitations: From OSINT Framework (URL Expanders; free). What you enter goes to this
+  site.
+official_url: https://www.linkexpander.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

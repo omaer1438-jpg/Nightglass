@@ -1,0 +1,18 @@
+id: ofw_checkshorturl
+name: CheckShortURL
+category: domains
+description: Preview service for shortened URLs with destination and threat-check
+  context.
+limitations: From OSINT Framework (URL Expanders; free). What you enter goes to this
+  site.
+official_url: https://checkshorturl.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

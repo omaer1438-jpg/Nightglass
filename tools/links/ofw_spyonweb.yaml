@@ -1,0 +1,18 @@
+id: ofw_spyonweb
+name: SpyOnWeb
+category: domains
+description: Correlation tool that links domains by shared tracking and advertising
+  identifiers.
+limitations: From OSINT Framework (Analytics; freemium). What you enter goes to this
+  site.
+official_url: https://www.spyonweb.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

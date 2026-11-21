@@ -1,0 +1,53 @@
+# Osintgram - tool manifest (schema: core/manifest.py)
+# Run only by module 28 Osintgram (adapters/osintgram.py), which writes the owner's login into the run
+# folder just for the run and deletes it afterwards. It is deliberately not a module engine: the plain
+# tool runner would start it without that cleanup.
+id: osintgram
+name: "Osintgram"
+category: social
+description: "Profile details, captions, hashtags, geotagged places, post types, tags, likes and comments of one Instagram account, through your own Instagram login."
+limitations: "Logs in with YOUR Instagram account (Settings > API keys): Instagram may block or ban it, so use a secondary account. Only target-focused commands run; follower/following lists and their emails or phone numbers are never collected. Private profiles stay private. Results are leads."
+official_url: https://github.com/Datalux/Osintgram
+license: "GPL-3.0"
+open_source: true
+provider: "Instagram (logged in as your own account) and OpenStreetMap Nominatim (coordinates of geotagged posts)"
+labels: [external, passive, api_key]
+api_key: required
+target_types: [username]
+launch:
+  kind: subprocess
+  venv: envs/osintgram
+  timeout_s: 600
+  max_output_kb: 4096
+  # Osintgram 2.0 is a web app with no CLI, so its service layer is driven directly (instagrapi backend).
+  # It reads config/credentials.ini from its working folder (the run folder) and removes the folder right
+  # after logging in. Only the commands below run (allowlist, checked by adapters/osintgram.py).
+  # No curly braces in the code: the manifest reads them as placeholders.
+  args:
+    - "-c"
+    - |
+      import json, os, shutil, sys
+      sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(sys.executable)), "app"))
+      from src.osint_service import build_service
+      try:
+          s = build_service(sys.argv[1], "instagrapi")
+      except Exception as e:
+          print(json.dumps(dict(command="login", error="%s: %s" % (type(e).__name__, e))), flush=True)
+          sys.exit(2)
+      finally:
+          shutil.rmtree("config", ignore_errors=True)
+      s.api.cache_store, s.api.cache_ttl_seconds, s.api.max_calls = dict(), 3600, 60
+      for name, method in (("info", "get_user_info"), ("addrs", "get_addrs"), ("captions", "get_captions"),
+                           ("hashtags", "get_hashtags"), ("mediatype", "get_media_type"),
+                           ("tagged", "get_people_tagged_by_user"), ("wtagged", "get_people_who_tagged"),
+                           ("likes", "get_total_likes"), ("comments", "get_total_comments")):
+          try:
+              data = getattr(s, method)() if name == "info" else getattr(s, method)(50)
+              if isinstance(data, dict):
+                  data.pop("previews", None)
+              print(json.dumps(dict(command=name, data=data), default=str), flush=True)
+          except Exception as e:
+              print(json.dumps(dict(command=name, error="%s: %s" % (type(e).__name__, e))), flush=True)
+    - "{username}"
+parser: adapters.osintgram:parse
+review_date: 2026-11-20

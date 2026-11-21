@@ -1,0 +1,18 @@
+id: ofw_osint_analyser
+name: OSINT Analyser
+category: ai
+description: Open-source OSINT data aggregation and AI analysis tool that collects
+  information from multiple sources and uses LLMs to generate intelligence summaries.
+limitations: From OSINT Framework (LLM Enabled Tools; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/joestanding/osint-analyser
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

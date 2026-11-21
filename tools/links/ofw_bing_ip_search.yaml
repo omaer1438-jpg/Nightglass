@@ -1,0 +1,18 @@
+id: ofw_bing_ip_search
+name: Bing IP Search
+category: ip
+description: Bing search operator for finding domains and subdomains hosted on a specific
+  IP address.
+limitations: From OSINT Framework (Neighbor Domains; free). What you enter goes to
+  this site.
+official_url: https://www.bing.com/search?q=ip%3A8.8.8.8
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

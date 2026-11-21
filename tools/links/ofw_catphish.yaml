@@ -1,0 +1,18 @@
+id: ofw_catphish
+name: Catphish
+category: domains
+description: Red team tool for generating phishing domains using homoglyphs, punycode,
+  and domain manipulation techniques.
+limitations: From OSINT Framework (Typosquatting; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/ring0lab/catphish
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

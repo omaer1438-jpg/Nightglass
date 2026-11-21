@@ -1,0 +1,18 @@
+id: ofw_urlwatch
+name: Urlwatch
+category: domains
+description: Open-source Python CLI tool for monitoring webpages and feeds for changes.
+  Supports multiple filters, reporters, and scheduled checks via local automation.
+limitations: From OSINT Framework (Change Detection; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/thp/urlwatch
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

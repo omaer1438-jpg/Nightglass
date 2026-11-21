@@ -1,0 +1,18 @@
+id: ofw_data24_7
+name: Data24-7
+category: phone
+description: Commercial data enrichment provider supporting phone-based identity and
+  risk intelligence lookups.
+limitations: From OSINT Framework (Telephone Numbers; paid). What you enter goes to
+  this site.
+official_url: https://www.data24-7.com/signup.php
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- phone
+launch:
+  kind: browser
+review_date: '2026-11-02'

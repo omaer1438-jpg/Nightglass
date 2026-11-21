@@ -1,0 +1,19 @@
+id: ofw_zscaler_zulu_url_risk_analyzer
+name: Zscaler Zulu URL Risk Analyzer
+category: domains
+description: 'Free dynamic risk scoring engine for web content analysis. Assesses
+  URLs from multiple perspectives: content analysis, URL patterns, and host reputation
+  using machine learning.'
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://zulu.zscaler.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

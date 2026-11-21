@@ -1,0 +1,19 @@
+id: ofw_whoisology
+name: Whoisology
+category: domains
+description: Searchable archive of billions of current and historical domain WHOIS
+  records with cross-referencing capabilities. Designed for InfoSec, legal, and research
+  professionals.
+limitations: From OSINT Framework (Whois Records; freemium). What you enter goes to
+  this site.
+official_url: https://whoisology.com/#advanced
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

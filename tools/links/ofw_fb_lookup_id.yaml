@@ -1,0 +1,18 @@
+id: ofw_fb_lookup_id
+name: FB Lookup ID
+category: social
+description: Web utility that resolves Facebook profile, page, or group URLs into
+  numeric Facebook IDs for downstream investigation tools.
+limitations: From OSINT Framework (Facebook > Search; free). What you enter goes to
+  this site.
+official_url: https://lookup-id.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_ip2location_com
+name: IP2Location.com
+category: ip
+description: Commercial IP geolocation service with free demo and database. Provides
+  location, proxy detection, and network data.
+limitations: From OSINT Framework (Geolocation; freemium). What you enter goes to
+  this site.
+official_url: https://www.ip2location.com/demo
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

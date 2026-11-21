@@ -1,0 +1,18 @@
+id: ofw_masto
+name: Masto
+category: social
+description: Python-based Mastodon OSINT tool for investigating user accounts across
+  instances. Retrieves profile details, toots, followers, and account metadata.
+limitations: From OSINT Framework (Fediverse/Mastodon; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/C3n7ral051nt4g3ncy/Masto
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

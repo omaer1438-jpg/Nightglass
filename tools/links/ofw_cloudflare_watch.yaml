@@ -1,0 +1,18 @@
+id: ofw_cloudflare_watch
+name: CloudFlare Watch
+category: ip
+description: Tool for identifying and analyzing websites protected by Cloudflare's
+  CDN and security services.
+limitations: From OSINT Framework (Protected by Cloud Services; free). What you enter
+  goes to this site.
+official_url: https://www.crimeflare.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

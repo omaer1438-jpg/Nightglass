@@ -1,0 +1,14 @@
+# ip-api - tool manifest (schema: core/manifest.py)
+id: ip_api
+name: "ip-api"
+category: ip
+description: "IP geolocation without an API key."
+limitations: "The free endpoint is HTTP only (unencrypted) and rate-limited, for non-commercial use. Locations are approximate."
+official_url: https://ip-api.com
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [ip]
+launch:
+  kind: web_api
+review_date: 2026-10-01

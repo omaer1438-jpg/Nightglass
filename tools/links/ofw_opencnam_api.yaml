@@ -1,0 +1,18 @@
+id: ofw_opencnam_api
+name: OpenCNAM API
+category: phone
+description: CNAM lookup API for resolving caller-name metadata from North American
+  numbers.
+limitations: From OSINT Framework (Telephone Numbers; paid). What you enter goes to
+  this site.
+official_url: https://api.opencnam.com/v2/phone/+19073372323
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- phone
+launch:
+  kind: browser
+review_date: '2026-11-02'

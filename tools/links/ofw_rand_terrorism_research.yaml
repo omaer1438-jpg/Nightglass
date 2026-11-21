@@ -1,0 +1,19 @@
+id: ofw_rand_terrorism_research
+name: RAND Terrorism Research
+category: threat
+description: RAND Corporation's collection of research and analysis on terrorism topics.
+limitations: From OSINT Framework (Terrorism & Extremism > Research Centers; free).
+  What you enter goes to this site.
+official_url: https://www.rand.org/topics/terrorism.html
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

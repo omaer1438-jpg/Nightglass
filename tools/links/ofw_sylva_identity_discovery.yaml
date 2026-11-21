@@ -1,0 +1,18 @@
+id: ofw_sylva_identity_discovery
+name: Sylva Identity Discovery
+category: usernames
+description: Open-source CLI tool for username and identity discovery with branch
+  discovery to expand searches as additional linked identities are uncovered.
+limitations: From OSINT Framework (Username Search Engines; free). What you enter
+  goes to this site.
+official_url: https://sylva.pfeister.dev/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

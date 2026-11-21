@@ -1,0 +1,24 @@
+# theHarvester - tool manifest (schema: core/manifest.py)
+id: theharvester
+name: "theHarvester"
+category: domains
+description: "Collects public emails, hostnames and names for a domain."
+limitations: "Some sources need API keys. Results are leads until verified."
+official_url: https://github.com/laramies/theHarvester
+license: "GPL-2.0"
+open_source: true
+provider: "crt.sh, RapidDNS, HackerTarget, AlienVault OTX and urlscan.io"
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: subprocess
+  venv: envs/theharvester
+  timeout_s: 300
+  max_output_kb: 4096
+  own_home: true    # it keeps a results database in the home folder
+  # Verified against theHarvester 4.6.0, the last line that runs on Python 3.11. Key-free passive
+  # sources only; no -c/-n/-t, so it never brute-forces or resolves against the target's servers.
+  args: ["-c", "from theHarvester.theHarvester import main; main()", "-d", "{domain}",
+         "-b", "crtsh,rapiddns,hackertarget,otx,urlscan", "-f", "report"]
+parser: adapters.theharvester:parse
+review_date: 2026-10-01

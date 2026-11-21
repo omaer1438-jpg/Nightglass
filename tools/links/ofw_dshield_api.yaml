@@ -1,0 +1,18 @@
+id: ofw_dshield_api
+name: DShield API
+category: ip
+description: API and database of security events and IPs involved in attacks monitored
+  by SANS.
+limitations: From OSINT Framework (Blacklists; free). What you enter goes to this
+  site.
+official_url: https://isc.sans.edu/api/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

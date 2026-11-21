@@ -1,0 +1,20 @@
+id: ofw_ibm_x_force_exchange
+name: IBM X-Force Exchange
+category: threat
+description: Collaborative threat intelligence platform with malware, vulnerability,
+  and campaign data.
+limitations: From OSINT Framework (Threat Feeds & Platforms; freemium). What you enter
+  goes to this site.
+official_url: https://exchange.xforce.ibmcloud.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

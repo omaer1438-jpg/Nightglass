@@ -1,0 +1,26 @@
+# ExifTool - tool manifest (schema: core/manifest.py)
+id: exiftool
+name: "ExifTool"
+category: images
+description: "Reads file and image metadata: EXIF, GPS, camera, software and timestamps."
+limitations: "May reveal GPS locations, so treat output as sensitive. Shipped as a pinned binary with a verified hash."
+official_url: https://exiftool.org
+license: "Perl (Artistic / GPL)"
+open_source: true
+labels: [local]
+target_types: [file]
+launch:
+  kind: subprocess
+  executable: bin/exiftool.exe
+  timeout_s: 60
+  max_output_kb: 2048
+  # ExifTool 13.60 (exiftool-13.60_64.zip, SHA-256 548b1f4e...0c2e on exiftool.org).
+  # Pinned hash of bin/exiftool.exe; "--" ends options so a file name is never read as one.
+  sha256: 44b336d7596c3ec86577a5ff6d46e8388a56eb69a15f09987d4ac6cc3abbf75e
+  # The launcher only starts bin/exiftool_files/perl.exe + exiftool.pl: pin that whole folder too
+  # (508 files; core.runner.tree_sha256). Checked at startup and before every run.
+  tree: bin/exiftool_files
+  tree_sha256: 920499379caab055861e434ee39774cbe7cef7a4ce167cd8448866070c8b65a9
+  args: ["-json", "-n", "-G1", "-a", "-api", "LargeFileSupport=1", "--", "{file}"]
+parser: adapters.exiftool:parse
+review_date: 2026-10-01

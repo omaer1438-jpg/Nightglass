@@ -1,0 +1,19 @@
+id: ofw_webroot_brightcloud_url_ip_lookup
+name: Webroot BrightCloud URL/IP Lookup
+category: domains
+description: Web classification and reputation tool providing URL/IP threat and content
+  analysis. Uses machine learning reputation scoring across 82 content categories
+  with IP risk tiering.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://www.brightcloud.com/tools/url-ip-lookup.php
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,14 @@
+# urlscan.io - tool manifest (schema: core/manifest.py)
+id: urlscan
+name: "urlscan.io"
+category: web
+description: "Sandboxed scan of a web page: requests, redirects, technologies and a screenshot."
+limitations: "Public scans are visible to everyone. Choose a private scan for sensitive URLs."
+official_url: https://urlscan.io
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [url, domain]
+launch:
+  kind: browser
+review_date: 2026-11-01

@@ -1,0 +1,18 @@
+id: ofw_wigle_wireless_network_mapping
+name: 'WiGLE: Wireless Network Mapping'
+category: ip
+description: Global database of wireless networks (WiFi, Bluetooth, cellular) with
+  mapping and signal strength data.
+limitations: From OSINT Framework (Wireless Network Info; freemium). What you enter
+  goes to this site.
+official_url: https://wigle.net/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

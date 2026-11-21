@@ -1,0 +1,18 @@
+id: ofw_google_safe_browsing
+name: Google Safe Browsing
+category: domains
+description: Google's phishing and malware reporting portal for submitting suspicious
+  URLs for review.
+limitations: From OSINT Framework (Report Malicious Sites; free). What you enter goes
+  to this site.
+official_url: https://safebrowsing.google.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

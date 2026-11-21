@@ -1,0 +1,17 @@
+id: ofw_utrace
+name: utrace
+category: ip
+description: IP geolocation and reverse DNS lookup tool with network traceroute visualization.
+limitations: From OSINT Framework (Geolocation; free). What you enter goes to this
+  site.
+official_url: https://en.utrace.de/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,14 @@
+# WhatsMyName - tool manifest (schema: core/manifest.py)
+id: whatsmyname
+name: "WhatsMyName"
+category: usernames
+description: "Community-maintained list of sites and username URL patterns."
+limitations: "A dataset, not a tool. Verify its license and project status before relying on it."
+official_url: https://github.com/WebBreacher/WhatsMyName
+license: null   # verify before integration
+open_source: true
+labels: [external, passive]
+target_types: [username]
+launch:
+  kind: browser
+review_date: 2026-10-01

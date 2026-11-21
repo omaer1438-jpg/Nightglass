@@ -1,0 +1,18 @@
+id: ofw_follow_that_page
+name: Follow That Page
+category: domains
+description: Website monitoring service that checks pages for changes and sends alerts
+  when tracked content updates. Supports keyword-based notifications for focused monitoring.
+limitations: From OSINT Framework (Change Detection; freemium). What you enter goes
+  to this site.
+official_url: https://www.followthatpage.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

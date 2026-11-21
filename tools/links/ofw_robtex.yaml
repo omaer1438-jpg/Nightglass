@@ -1,0 +1,19 @@
+id: ofw_robtex
+name: Robtex
+category: domains
+description: Comprehensive free DNS lookup and network intelligence tool with decade-spanning
+  database containing billions of documents of internet data. Useful for forensics
+  and threat actor tracking.
+limitations: From OSINT Framework (Whois Records; free). What you enter goes to this
+  site.
+official_url: https://robtex.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

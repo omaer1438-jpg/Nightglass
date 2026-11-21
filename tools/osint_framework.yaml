@@ -1,0 +1,14 @@
+# OSINT Framework - tool manifest (schema: core/manifest.py)
+id: osint_framework
+name: "OSINT Framework"
+category: general
+description: "Directory of free OSINT resources, grouped by category."
+limitations: "A directory: it does not run tools. Each linked resource has its own terms."
+official_url: https://osintframework.com
+license: "MIT"
+open_source: true
+labels: [external, passive]
+target_types: []
+launch:
+  kind: browser
+review_date: 2026-10-01

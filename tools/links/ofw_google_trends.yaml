@@ -1,0 +1,18 @@
+id: ofw_google_trends
+name: Google Trends
+category: domains
+description: Google's search trend analysis tool for tracking keyword popularity and
+  comparing search interest over time.
+limitations: From OSINT Framework (Social Analysis; free). What you enter goes to
+  this site.
+official_url: https://trends.google.com/trends/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

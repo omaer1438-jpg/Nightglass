@@ -1,0 +1,17 @@
+id: ofw_visual_site_mapper
+name: Visual Site Mapper
+category: domains
+description: Site-crawling mapper used to visualize website structure and page relationships.
+limitations: From OSINT Framework (Analytics; free). Install and run it yourself after
+  reviewing it.
+official_url: https://github.com/alentum/sitemapper-nodejs
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

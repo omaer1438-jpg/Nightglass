@@ -1,0 +1,14 @@
+# Shodan InternetDB - tool manifest (schema: core/manifest.py)
+id: shodan_internetdb
+name: "Shodan InternetDB"
+category: ip
+description: "Open ports, hostnames, tags and known CVEs per IP, without an API key."
+limitations: "Data is refreshed weekly. Free for non-commercial use."
+official_url: https://internetdb.shodan.io
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [ip]
+launch:
+  kind: web_api
+review_date: 2026-10-01

@@ -1,0 +1,18 @@
+id: ofw_you_com
+name: You.com
+category: ai
+description: AI-powered search engine and assistant that combines web search with
+  LLM-generated responses and source citations for research tasks.
+limitations: From OSINT Framework (LLM Enabled Tools; freemium). What you enter goes
+  to this site.
+official_url: https://you.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

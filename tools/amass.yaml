@@ -1,0 +1,23 @@
+# OWASP Amass - tool manifest (schema: core/manifest.py)
+id: amass
+name: "OWASP Amass"
+category: domains
+description: "Attack-surface mapping and subdomain enumeration."
+limitations: "v5 needs its own engine service, so Nightglass doesn't run it. Passive mode only; active techniques are for authorized scopes."
+official_url: https://github.com/owasp-amass/amass
+license: "Apache-2.0"
+open_source: true
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: subprocess
+  executable: bin/amass.exe
+  timeout_s: 600
+  max_output_kb: 8192
+  # OWASP Amass v5.1.3 (amass_windows_amd64.tar.gz, verified against the release checksums).
+  sha256: bbaa2bc8a4ebac518b0ef6e2094e6d11927e1f6adc2e8491b56f2c8577d99276
+  # Not integrated: Amass v5 runs a separate engine service with its own asset database,
+  # so it doesn't fit a single fixed command. Use Subfinder or the built-in crt.sh instead.
+  args: []
+parser: null
+review_date: 2026-10-01

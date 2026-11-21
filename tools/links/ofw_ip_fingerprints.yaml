@@ -1,0 +1,18 @@
+id: ofw_ip_fingerprints
+name: IP Fingerprints
+category: ip
+description: Reverse IP lookup service identifying all domains hosted on a given IP
+  address.
+limitations: From OSINT Framework (Geolocation; free). What you enter goes to this
+  site.
+official_url: https://ipfingerprints.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

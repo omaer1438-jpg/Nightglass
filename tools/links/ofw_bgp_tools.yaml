@@ -1,0 +1,16 @@
+id: ofw_bgp_tools
+name: BGP Tools
+category: ip
+description: Collection of BGP analysis and AS number lookup tools for network intelligence.
+limitations: From OSINT Framework (BGP; free). What you enter goes to this site.
+official_url: https://www.bgp4.as/tools
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_watchthatpage
+name: WatchThatPage
+category: domains
+description: Web-based page monitoring platform that detects content changes and notifies
+  users by email. Useful for tracking updates on websites without RSS feeds.
+limitations: From OSINT Framework (Change Detection; freemium). What you enter goes
+  to this site.
+official_url: https://watchthatpage.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

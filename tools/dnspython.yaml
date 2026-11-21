@@ -1,0 +1,15 @@
+# dnspython - tool manifest (schema: core/manifest.py)
+id: dnspython
+name: "dnspython"
+category: domains
+description: "DNS toolkit behind DNSRecon: A, AAAA, MX, NS, TXT, CNAME, SOA and PTR."
+limitations: "Queries go to public DNS resolvers, so lookups are not fully offline."
+official_url: https://github.com/rthalley/dnspython
+license: "ISC"
+open_source: true
+labels: [external, passive]
+target_types: [domain, ip]
+launch:
+  kind: python
+  module: dns
+review_date: 2026-10-01

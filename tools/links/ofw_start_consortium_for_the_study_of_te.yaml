@@ -1,0 +1,20 @@
+id: ofw_start_consortium_for_the_study_of_te
+name: START Consortium for the Study of Terrorism and Responses to
+category: threat
+description: National Consortium conducting research on terrorism causes, consequences,
+  and responses.
+limitations: From OSINT Framework (Terrorism & Extremism > Academic Research; free).
+  What you enter goes to this site.
+official_url: https://www.start.umd.edu/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_disposable_emails_registry
+name: Disposable Emails Registry
+category: email
+description: Searchable registry of disposable email domains with bulk download support
+  for threat intelligence integration.
+limitations: From OSINT Framework (Email Verification; free). What you enter goes
+  to this site.
+official_url: https://disposable-emails.github.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

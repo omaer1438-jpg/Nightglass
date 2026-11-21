@@ -1,0 +1,18 @@
+id: ofw_where_does_this_link_go
+name: Where Does This Link Go?
+category: domains
+description: Redirect-chain inspector that traces and visualizes final destination
+  paths.
+limitations: From OSINT Framework (URL Expanders; free). What you enter goes to this
+  site.
+official_url: https://wheregoes.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_whois_amped
+name: Whois AMPed
+category: domains
+description: Mobile-optimized WHOIS lookup service accessible via web interface for
+  domain registration information and WHOIS queries.
+limitations: From OSINT Framework (Whois Records; free). What you enter goes to this
+  site.
+official_url: https://whoisamped.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_page2images
+name: Page2Images
+category: general
+description: Website screenshot and full-page capture API that converts URLs to images
+  for various devices including desktop, mobile, and tablet.
+limitations: From OSINT Framework (Web Browsing; freemium). What you enter goes to
+  this site.
+official_url: https://www.page2images.com/URL-Live-Website-Screenshot-Generator
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

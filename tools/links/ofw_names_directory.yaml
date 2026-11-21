@@ -1,0 +1,19 @@
+id: ofw_names_directory
+name: Names Directory
+category: usernames
+description: Searchable database of 1B+ name combinations collected from public sources.
+  Allows bidirectional lookup to find first names by surname or surnames by first
+  name.
+limitations: From OSINT Framework (Username Search Engines; free). What you enter
+  goes to this site.
+official_url: https://namesdir.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,14 @@
+# Namechk - tool manifest (schema: core/manifest.py)
+id: namechk
+name: "Namechk"
+category: usernames
+description: "Checks a username's availability across many platforms."
+limitations: "A taken name is not proof that it belongs to the same person."
+official_url: https://namechk.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [username]
+launch:
+  kind: browser
+review_date: 2026-11-01

@@ -1,0 +1,17 @@
+id: ofw_ttanon
+name: TTAnon
+category: social
+description: Web viewer for public TikTok profiles, videos, photo posts, hashtags,
+  and sounds that works without a TikTok account.
+limitations: From OSINT Framework (TikTok; free). What you enter goes to this site.
+official_url: https://ttanon.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

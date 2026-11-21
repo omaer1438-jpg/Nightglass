@@ -1,0 +1,18 @@
+id: ofw_mxtoolbox
+name: MxToolbox
+category: email
+description: Email deliverability diagnostics tool that checks MX records, SPF, DKIM,
+  DMARC configuration, and server health to prevent email delivery issues.
+limitations: From OSINT Framework (Mail Blacklists; free). What you enter goes to
+  this site.
+official_url: https://mxtoolbox.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

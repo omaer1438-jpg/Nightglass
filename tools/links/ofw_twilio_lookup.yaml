@@ -1,0 +1,18 @@
+id: ofw_twilio_lookup
+name: Twilio Lookup
+category: phone
+description: Twilio API endpoint for phone intelligence including line type, carrier,
+  and validation data.
+limitations: From OSINT Framework (Telephone Numbers; paid). What you enter goes to
+  this site.
+official_url: https://www.twilio.com/lookup
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- phone
+launch:
+  kind: browser
+review_date: '2026-11-02'

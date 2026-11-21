@@ -1,0 +1,18 @@
+id: ofw_talkwalker_social_media_search
+name: Talkwalker Social Media Search
+category: social
+description: Enterprise social media monitoring and search platform. Tracks mentions
+  across social networks, forums, and news sources with sentiment analysis.
+limitations: From OSINT Framework (Search; freemium). What you enter goes to this
+  site.
+official_url: https://www.talkwalker.com/social-media-analytics-search
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,17 @@
+id: ofw_url_expander
+name: URL Expander
+category: domains
+description: Link resolver for unshortening and inspecting redirect destination chains.
+limitations: From OSINT Framework (URL Expanders; free). What you enter goes to this
+  site.
+official_url: https://urlex.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

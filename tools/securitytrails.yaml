@@ -1,0 +1,14 @@
+# SecurityTrails - tool manifest (schema: core/manifest.py)
+id: securitytrails
+name: "SecurityTrails"
+category: domains
+description: "Historical DNS records and subdomain data."
+limitations: "Needs a free account; most history is limited on the free tier."
+official_url: https://securitytrails.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, ip]
+launch:
+  kind: browser
+review_date: 2026-11-01

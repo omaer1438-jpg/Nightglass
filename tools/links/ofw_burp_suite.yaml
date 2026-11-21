@@ -1,0 +1,17 @@
+id: ofw_burp_suite
+name: Burp Suite
+category: domains
+description: Industry-standard web application security testing platform for manual
+  and automated vulnerability assessment.
+limitations: From OSINT Framework (Tools; freemium). What you enter goes to this site.
+official_url: https://portswigger.net/burp
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

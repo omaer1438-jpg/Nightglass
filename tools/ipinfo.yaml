@@ -1,0 +1,15 @@
+# ipinfo - tool manifest (schema: core/manifest.py)
+id: ipinfo
+name: "ipinfo"
+category: ip
+description: "IP geolocation, ISP, organization and ASN."
+limitations: "Works without a token at low volume; a free token raises the limits. Locations are approximate: a network, not a person."
+official_url: https://ipinfo.io
+license: null   # verify before integration
+open_source: false
+labels: [external, passive, api_key]
+target_types: [ip]
+api_key: optional
+launch:
+  kind: web_api
+review_date: 2026-10-01

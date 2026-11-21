@@ -1,0 +1,18 @@
+id: ofw_easywhois
+name: easyWhois
+category: domains
+description: Free domain WHOIS lookup and DNS tools service. Now operated under the
+  DomainHelp platform, providing domain registration information and DNS lookups.
+limitations: From OSINT Framework (Whois Records; free). What you enter goes to this
+  site.
+official_url: https://www.easywhois.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

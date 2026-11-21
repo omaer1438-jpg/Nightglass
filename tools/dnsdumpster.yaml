@@ -1,0 +1,14 @@
+# DNSDumpster - tool manifest (schema: core/manifest.py)
+id: dnsdumpster
+name: "DNSDumpster"
+category: domains
+description: "Free map of a domain's DNS records and related hosts."
+limitations: "Results come from public datasets and may be out of date."
+official_url: https://dnsdumpster.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: browser
+review_date: 2026-11-01

@@ -1,0 +1,18 @@
+id: ofw_recover_fb_account
+name: Recover FB Account
+category: social
+description: Facebook account recovery endpoint that confirms whether an email or
+  phone number is linked to an account and presents recovery options.
+limitations: From OSINT Framework (Facebook > Search; free). What you enter goes to
+  this site.
+official_url: https://www.facebook.com/login/identify?ctx=recover
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

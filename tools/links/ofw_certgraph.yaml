@@ -1,0 +1,19 @@
+id: ofw_certgraph
+name: certgraph
+category: domains
+description: CLI tool that crawls SSL certificates via Certificate Transparency logs
+  to create a directed graph of domain relationships. Supports multiple drivers including
+  crt.sh, Censys, HTTPS, and SMTP.
+limitations: From OSINT Framework (Certificate Search; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/lanrat/certgraph
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

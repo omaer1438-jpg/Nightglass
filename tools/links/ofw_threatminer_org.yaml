@@ -1,0 +1,19 @@
+id: ofw_threatminer_org
+name: ThreatMiner.org
+category: domains
+description: Non-profit threat intelligence portal providing IOC research including
+  domains, IPs, malware samples, SSL certificates, WHOIS data, and malicious URLs
+  under Creative Commons license.
+limitations: From OSINT Framework (Reputation; free). What you enter goes to this
+  site.
+official_url: https://www.threatminer.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

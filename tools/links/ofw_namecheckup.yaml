@@ -1,0 +1,18 @@
+id: ofw_namecheckup
+name: NameCheckup
+category: usernames
+description: Free web-based username and domain availability checker that searches
+  across 20+ social media platforms and 40+ domain extensions with WHOIS lookup support.
+limitations: From OSINT Framework (Username Search Engines; free). What you enter
+  goes to this site.
+official_url: https://namecheckup.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

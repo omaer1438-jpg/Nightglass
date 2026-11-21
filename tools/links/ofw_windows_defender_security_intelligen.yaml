@@ -1,0 +1,18 @@
+id: ofw_windows_defender_security_intelligen
+name: Windows Defender Security Intelligence
+category: domains
+description: Microsoft's security intelligence portal for reporting malicious URLs
+  and checking Windows Defender threat assessments.
+limitations: From OSINT Framework (Report Malicious Sites; free). What you enter goes
+  to this site.
+official_url: https://www.microsoft.com/en-us/wdsi
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

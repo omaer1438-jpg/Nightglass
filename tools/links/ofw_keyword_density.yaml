@@ -1,0 +1,16 @@
+id: ofw_keyword_density
+name: Keyword Density
+category: domains
+description: Text and page analyzer that measures keyword frequency and relative density.
+limitations: From OSINT Framework (Analytics; free). What you enter goes to this site.
+official_url: https://tools.seobook.com/general/keyword-density/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

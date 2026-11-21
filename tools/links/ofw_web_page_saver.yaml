@@ -1,0 +1,18 @@
+id: ofw_web_page_saver
+name: Web Page Saver
+category: general
+description: Browser extension for saving complete webpages as single HTML files for
+  offline access and evidence preservation.
+limitations: From OSINT Framework (Web Browsing; free). What you enter goes to this
+  site.
+official_url: https://www.magnetforensics.com/resources/web-page-saver/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

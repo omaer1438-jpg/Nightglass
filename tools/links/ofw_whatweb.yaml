@@ -1,0 +1,18 @@
+id: ofw_whatweb
+name: WhatWeb
+category: domains
+description: Open-source fingerprinting scanner for identifying technologies, frameworks,
+  and server-side indicators.
+limitations: From OSINT Framework (Analytics; free). Install and run it yourself after
+  reviewing it.
+official_url: https://github.com/urbanadventurer/WhatWeb
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

@@ -1,0 +1,18 @@
+id: ofw_odnoklassniki
+name: Odnoklassniki
+category: social
+description: Russian social network with millions of users. Supports direct user search
+  by username and profile lookup.
+limitations: From OSINT Framework (Other Social Networks; free). What you enter goes
+  to this site.
+official_url: https://ok.ru/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

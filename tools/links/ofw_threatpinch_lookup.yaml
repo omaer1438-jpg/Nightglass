@@ -1,0 +1,20 @@
+id: ofw_threatpinch_lookup
+name: ThreatPinch Lookup
+category: threat
+description: Browser extension and Python tool for enriching IOCs with real-time threat
+  intelligence.
+limitations: From OSINT Framework (IOC Tools; free). Install and run it yourself after
+  reviewing it.
+official_url: https://github.com/cloudtracer/ThreatPinchLookup
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

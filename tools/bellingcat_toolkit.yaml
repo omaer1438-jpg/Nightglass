@@ -1,0 +1,14 @@
+# Bellingcat Toolkit - tool manifest (schema: core/manifest.py)
+id: bellingcat_toolkit
+name: "Bellingcat Toolkit"
+category: general
+description: "Maintained list of open-source investigation tools and guides."
+limitations: "A directory: review each tool before you use it."
+official_url: https://bellingcat.gitbook.io/toolkit
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [domain, username, email]
+launch:
+  kind: browser
+review_date: 2026-11-01

@@ -1,0 +1,20 @@
+id: ofw_mlsecproject_combine
+name: mlsecproject / combine
+category: threat
+description: Tool for gathering and normalizing threat intelligence feeds from public
+  sources.
+limitations: From OSINT Framework (Threat Feeds & Platforms; free). Install and run
+  it yourself after reviewing it.
+official_url: https://github.com/mlsecproject/combine
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

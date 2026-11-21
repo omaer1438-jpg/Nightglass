@@ -1,0 +1,18 @@
+id: ofw_facebook_photos_by_id
+name: Facebook Photos by ID
+category: social
+description: Direct Facebook photo permalink format that retrieves a specific image
+  when the photo ID is known.
+limitations: From OSINT Framework (Facebook > Search; free). What you enter goes to
+  this site.
+official_url: https://www.facebook.com/photo.php?fbid=PHOTO-ID-HERE
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

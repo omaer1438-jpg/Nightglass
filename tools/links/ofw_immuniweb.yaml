@@ -1,0 +1,20 @@
+id: ofw_immuniweb
+name: ImmuniWeb
+category: threat
+description: AI-powered application security platform for web penetration testing
+  and vulnerability scanning.
+limitations: From OSINT Framework (Attack Surface / Security Testing; freemium). What
+  you enter goes to this site.
+official_url: https://www.immuniweb.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

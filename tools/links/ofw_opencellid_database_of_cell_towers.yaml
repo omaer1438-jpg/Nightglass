@@ -1,0 +1,18 @@
+id: ofw_opencellid_database_of_cell_towers
+name: 'OpenCellid: Database of Cell Towers'
+category: ip
+description: Open database of cellular tower locations and coverage for mobile network
+  geolocation.
+limitations: From OSINT Framework (Wireless Network Info; free). What you enter goes
+  to this site.
+official_url: https://opencellid.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

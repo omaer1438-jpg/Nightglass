@@ -1,0 +1,18 @@
+id: ofw_birdwatcher
+name: Birdwatcher
+category: social
+description: Open-source Twitter data harvesting and analysis framework for collecting
+  tweets and producing offline analytical artifacts.
+limitations: From OSINT Framework (Twitter > Analytics; free). Install and run it
+  yourself after reviewing it.
+official_url: https://github.com/michenriksen/birdwatcher
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

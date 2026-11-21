@@ -1,0 +1,18 @@
+id: ofw_ip_void
+name: IP Void
+category: ip
+description: IP reputation and threat intelligence service analyzing blacklist status
+  and security risks.
+limitations: From OSINT Framework (Reputation; freemium). What you enter goes to this
+  site.
+official_url: https://www.ipvoid.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

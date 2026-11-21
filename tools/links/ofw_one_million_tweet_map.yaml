@@ -1,0 +1,18 @@
+id: ofw_one_million_tweet_map
+name: One Million Tweet Map
+category: social
+description: Interactive map for viewing recent geolocated tweets and filtering by
+  keyword and region.
+limitations: From OSINT Framework (Twitter > Location / Mapping; free). What you enter
+  goes to this site.
+official_url: https://onemilliontweetmap.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

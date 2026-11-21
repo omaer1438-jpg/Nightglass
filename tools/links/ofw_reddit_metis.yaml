@@ -1,0 +1,17 @@
+id: ofw_reddit_metis
+name: Reddit Metis
+category: social
+description: Reddit user analyzer summarizing posting behavior, language patterns,
+  and subreddit activity.
+limitations: From OSINT Framework (Reddit; free). What you enter goes to this site.
+official_url: https://redditmetis.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

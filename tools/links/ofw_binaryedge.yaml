@@ -1,0 +1,18 @@
+id: ofw_binaryedge
+name: BinaryEdge
+category: ip
+description: Commercial security research platform with internet-wide scanning and
+  module-based detection.
+limitations: From OSINT Framework (Host / Port Discovery; paid). What you enter goes
+  to this site.
+official_url: https://www.binaryedge.io/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

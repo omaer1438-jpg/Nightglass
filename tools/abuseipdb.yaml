@@ -1,0 +1,14 @@
+# AbuseIPDB - tool manifest (schema: core/manifest.py)
+id: abuseipdb
+name: "AbuseIPDB"
+category: ip
+description: "Community reports of abusive IP addresses."
+limitations: "Reports are unverified and addresses change hands. A report is a lead, not proof."
+official_url: https://www.abuseipdb.com
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [ip]
+launch:
+  kind: browser
+review_date: 2026-11-01

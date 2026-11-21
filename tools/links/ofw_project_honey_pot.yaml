@@ -1,0 +1,18 @@
+id: ofw_project_honey_pot
+name: Project Honey Pot
+category: ip
+description: Global honeypot network collecting spam and attack data with IP reputation
+  service.
+limitations: From OSINT Framework (Blacklists; freemium). What you enter goes to this
+  site.
+official_url: https://www.projecthoneypot.org/list_of_ips.php
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

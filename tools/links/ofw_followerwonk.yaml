@@ -1,0 +1,18 @@
+id: ofw_followerwonk
+name: Followerwonk
+category: social
+description: Follower analytics platform (now under Fedica) for examining X/Twitter
+  audience demographics, account overlaps, and engagement trends.
+limitations: From OSINT Framework (Twitter > Search; freemium). What you enter goes
+  to this site.
+official_url: https://followerwonk.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

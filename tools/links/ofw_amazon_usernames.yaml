@@ -1,0 +1,18 @@
+id: ofw_amazon_usernames
+name: Amazon Usernames
+category: usernames
+description: Google dork that searches Amazon.com for pages associated with a specific
+  username, surfacing public profiles, wishlists, and reviews.
+limitations: From OSINT Framework (Specific Sites; free). What you enter goes to this
+  site.
+official_url: https://www.google.com/search?q=site:amazon.com+%3Cusername%3E
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

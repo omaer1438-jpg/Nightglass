@@ -1,0 +1,19 @@
+id: ofw_google_s_certificate_transparency
+name: Google's Certificate Transparency
+category: domains
+description: Directory of all known Certificate Transparency logs monitored by Chrome
+  and other browsers. Browse CT log records to discover issued certificates, identify
+  unauthorized domain certificates, and monitor for certificate misuse.
+limitations: From OSINT Framework (Certificate Search; free). What you enter goes
+  to this site.
+official_url: https://www.certificate-transparency.org/known-logs
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

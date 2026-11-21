@@ -1,0 +1,18 @@
+id: ofw_tweet_metadata
+name: Tweet Metadata
+category: social
+description: Reference document and workflow aid for interpreting metadata fields
+  embedded in tweet payloads and exports.
+limitations: From OSINT Framework (Twitter > Analytics; free). What you enter goes
+  to this site.
+official_url: https://www.wsj.com/public/resources/documents/TweetMetadata.pdf
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: '2026-11-02'

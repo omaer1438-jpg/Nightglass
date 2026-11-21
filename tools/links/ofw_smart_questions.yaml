@@ -1,0 +1,17 @@
+id: ofw_smart_questions
+name: Smart Questions
+category: general
+description: Foundational guide by Eric S. Raymond on asking effective technical questions
+  in open-source and technical communities.
+limitations: From OSINT Framework (Training; free). What you enter goes to this site.
+official_url: https://www.catb.org/esr/faqs/smart-questions.html
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

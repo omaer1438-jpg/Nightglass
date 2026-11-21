@@ -1,0 +1,14 @@
+# Yandex Images - tool manifest (schema: core/manifest.py)
+id: yandex_images
+name: "Yandex Images"
+category: images
+description: "Reverse image search with strong coverage of places and objects."
+limitations: "Images are sent to Yandex. Never upload private evidence."
+official_url: https://yandex.com/images
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [file]
+launch:
+  kind: browser
+review_date: 2026-11-01

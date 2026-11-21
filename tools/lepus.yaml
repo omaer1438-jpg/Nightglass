@@ -1,0 +1,14 @@
+# Lepus - tool manifest (schema: core/manifest.py)
+id: lepus
+name: "Lepus"
+category: domains
+description: "Subdomain finder that combines passive sources with optional DNS techniques."
+limitations: "Install it separately. Its brute-force and DNS modes touch the target: use them only inside an authorized scope."
+official_url: https://github.com/gfek/Lepus
+license: "GPL-3.0"
+open_source: true
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: browser
+review_date: 2026-11-01

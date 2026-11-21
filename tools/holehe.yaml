@@ -1,0 +1,25 @@
+# Holehe - tool manifest (schema: core/manifest.py)
+id: holehe
+name: "Holehe"
+category: email
+description: "Hints at where an email is registered, using signup and password-reset flows."
+limitations: "Active: it touches third-party account flows. Use only with authorization. Off by default."
+official_url: https://github.com/megadose/holehe
+license: "GPL-3.0"
+open_source: true
+provider: "About 120 websites' signup and login forms (account-exists checks; no password resets)"
+labels: [external, active]
+target_types: [email]
+active_setting: active.holehe   # Settings switch, off by default
+launch:
+  kind: subprocess
+  venv: envs/holehe
+  timeout_s: 180
+  max_output_kb: 1024
+  # Verified against Holehe 1.61. Its check_update() would query PyPI and pip-upgrade itself on
+  # every run, so it is replaced with a no-op before calling Holehe's own entry point.
+  # -NP skips the sites it checks through password-recovery forms.
+  args: ["-c", "import trio, holehe.core as h; h.check_update = lambda: None; trio.run(h.maincore)",
+         "{email}", "--only-used", "--no-color", "--no-clear", "-NP", "-T", "15"]
+parser: adapters.holehe:parse
+review_date: 2026-10-01

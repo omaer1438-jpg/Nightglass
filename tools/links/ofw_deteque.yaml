@@ -1,0 +1,19 @@
+id: ofw_deteque
+name: Deteque
+category: domains
+description: Real-time IP, domain, and threat intelligence from Spamhaus and abuse.ch
+  alliance. Provides comprehensive malware, botnet, and abuse data with diverse IOC
+  coverage (IPs, domains, URLs, files, cryptos).
+limitations: From OSINT Framework (PassiveDNS; freemium). What you enter goes to this
+  site.
+official_url: https://www.deteque.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

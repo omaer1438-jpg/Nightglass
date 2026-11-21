@@ -1,0 +1,15 @@
+# GitHub Search - tool manifest (schema: core/manifest.py)
+id: github_search
+name: "GitHub Search"
+category: web
+description: "Search public repositories, code and user profiles."
+limitations: "Never use or test exposed secrets. A token only raises the API rate limit."
+official_url: https://github.com/search
+license: null   # verify before integration
+open_source: false
+labels: [external, passive, api_key]
+target_types: [username, email]
+api_key: optional
+launch:
+  kind: web_api
+review_date: 2026-10-01

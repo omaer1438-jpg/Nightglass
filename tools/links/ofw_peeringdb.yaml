@@ -1,0 +1,17 @@
+id: ofw_peeringdb
+name: PeeringDB
+category: ip
+description: Database of internet exchange points, member networks, and AS relationships
+  for network mapping.
+limitations: From OSINT Framework (BGP; free). What you enter goes to this site.
+official_url: https://www.peeringdb.com/advanced_search
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

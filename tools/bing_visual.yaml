@@ -1,0 +1,14 @@
+# Bing Visual Search - tool manifest (schema: core/manifest.py)
+id: bing_visual
+name: "Bing Visual Search"
+category: images
+description: "Reverse image search from Microsoft."
+limitations: "Images are sent to Microsoft. Never upload private evidence."
+official_url: https://www.bing.com/visualsearch
+license: null
+open_source: false
+labels: [external, passive]
+target_types: [file]
+launch:
+  kind: browser
+review_date: 2026-11-01

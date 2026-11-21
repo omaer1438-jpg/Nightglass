@@ -1,0 +1,22 @@
+# dnsrecon, zone transfer check - tool manifest (schema: core/manifest.py)
+id: dnsrecon_axfr
+name: "dnsrecon (zone transfer)"
+category: domains
+description: "Asks a domain's name servers for a full zone transfer."
+limitations: "Active: it contacts the target's name servers directly. Only on domains you may test. Off by default."
+official_url: https://github.com/darkoperator/dnsrecon
+license: "GPL-2.0"
+open_source: true
+provider: "The target domain's own name servers"
+labels: [external, active]
+target_types: [domain]
+active_setting: active.zone_transfer   # Settings switch, off by default
+launch:
+  kind: subprocess
+  venv: envs/dnsrecon
+  timeout_s: 120
+  max_output_kb: 2048
+  # Verified against dnsrecon 0.10.1. Zone transfer only: no brute force, and no --json (it fails on zone records).
+  args: ["-m", "dnsrecon", "-d", "{domain}", "-t", "axfr"]
+parser: adapters.zonetransfer:parse
+review_date: 2026-11-02

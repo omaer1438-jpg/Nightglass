@@ -1,0 +1,18 @@
+id: ofw_mailscrap
+name: MailScrap
+category: email
+description: Email verification tool that connects to mail servers to verify mailbox
+  existence and removes disposable email addresses from lists.
+limitations: From OSINT Framework (Email Verification; freemium). What you enter goes
+  to this site.
+official_url: https://mailscrap.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

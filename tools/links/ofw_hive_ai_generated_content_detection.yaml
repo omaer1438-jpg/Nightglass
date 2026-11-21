@@ -1,0 +1,18 @@
+id: ofw_hive_ai_generated_content_detection
+name: Hive AI Generated Content Detection
+category: ai
+description: Enterprise-grade AI content detection API from Hive Moderation that detects
+  AI-generated text, images, and video at scale.
+limitations: From OSINT Framework (AI Detectors; freemium). What you enter goes to
+  this site.
+official_url: https://hivemoderation.com/ai-generated-content-detection
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

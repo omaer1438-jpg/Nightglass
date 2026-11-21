@@ -1,0 +1,18 @@
+id: ofw_domaintools_whois
+name: DomainTools Whois
+category: domains
+description: Enterprise-grade WHOIS API with decades of historical domain data and
+  rapid query response. The industry leader for threat intelligence and domain tracking.
+limitations: From OSINT Framework (Whois Records; paid). What you enter goes to this
+  site.
+official_url: https://whois.domaintools.com/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

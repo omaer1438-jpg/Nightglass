@@ -1,0 +1,18 @@
+id: ofw_greenshot
+name: Greenshot
+category: general
+description: Free and open-source screenshot program for Windows and macOS with annotation,
+  highlighting, and multi-format export capabilities.
+limitations: From OSINT Framework (Screen Capture; free). What you enter goes to this
+  site.
+official_url: https://getgreenshot.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

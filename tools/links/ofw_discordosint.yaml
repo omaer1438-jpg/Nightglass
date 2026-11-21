@@ -1,0 +1,16 @@
+id: ofw_discordosint
+name: "DiscordOSINT"
+category: social
+description: "GitHub repository of Discord investigation techniques, queries and tooling references."
+limitations: "From OSINT Framework (Instant Messaging > Discord; free). A documentation repository, not a runnable tool."
+official_url: https://github.com/husseinmuhaisen/DiscordOSINT
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- username
+launch:
+  kind: browser
+review_date: 2026-11-03

@@ -1,0 +1,14 @@
+# crt.sh - tool manifest (schema: core/manifest.py)
+id: crt_sh
+name: "crt.sh"
+category: domains
+description: "Certificate transparency search for hostnames and subdomains."
+limitations: "Only finds names that appear in logged certificates. Large domains can time out."
+official_url: https://crt.sh
+license: null   # verify before integration
+open_source: false
+labels: [external, passive]
+target_types: [domain]
+launch:
+  kind: web_api
+review_date: 2026-10-01

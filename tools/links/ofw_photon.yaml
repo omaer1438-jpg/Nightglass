@@ -1,0 +1,21 @@
+id: ofw_photon
+name: Photon
+category: general
+description: Fast Python web crawler designed for OSINT that extracts URLs, emails,
+  social media accounts, files, API keys, JavaScript endpoints, and DNS records from
+  websites.
+limitations: From OSINT Framework (OSINT Automation; free). Install and run it yourself
+  after reviewing it.
+official_url: https://github.com/s0md3v/Photon
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- domain
+- username
+- email
+launch:
+  kind: browser
+review_date: '2026-11-02'

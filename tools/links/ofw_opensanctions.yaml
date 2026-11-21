@@ -1,0 +1,20 @@
+id: ofw_opensanctions
+name: OpenSanctions
+category: threat
+description: Platform aggregating global sanctions, watchlists, and PEP data from
+  329 sources.
+limitations: From OSINT Framework (Terrorism & Extremism > Sanctions & Watchlists;
+  freemium). What you enter goes to this site.
+official_url: https://www.opensanctions.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+- ip
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'

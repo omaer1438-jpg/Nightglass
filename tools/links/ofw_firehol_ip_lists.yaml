@@ -1,0 +1,18 @@
+id: ofw_firehol_ip_lists
+name: FireHOL IP Lists
+category: ip
+description: Collection of firewall-friendly IP lists for blocking malicious and spam
+  sources.
+limitations: From OSINT Framework (Blacklists; free). What you enter goes to this
+  site.
+official_url: https://iplists.firehol.org/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- ip
+launch:
+  kind: browser
+review_date: '2026-11-02'

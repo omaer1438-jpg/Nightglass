@@ -1,0 +1,18 @@
+id: ofw_domain_dossier
+name: Domain Dossier
+category: domains
+description: Free web-based tool that aggregates WHOIS, DNS, and network information
+  for domains and IP addresses into a single consolidated report.
+limitations: From OSINT Framework (Whois Records; free). What you enter goes to this
+  site.
+official_url: https://centralops.net/co/DomainDossier.aspx
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

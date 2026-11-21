@@ -1,0 +1,19 @@
+id: ofw_mnemonic
+name: Mnemonic
+category: domains
+description: Mnemonic's public PassiveDNS service providing historical and current
+  DNS records collected from global sensor networks. Unauthenticated queries available
+  with rate limiting.
+limitations: From OSINT Framework (PassiveDNS; free). What you enter goes to this
+  site.
+official_url: https://passivedns.mnemonic.no/
+license: null
+open_source: false
+labels:
+- external
+- passive
+target_types:
+- domain
+launch:
+  kind: browser
+review_date: '2026-11-02'

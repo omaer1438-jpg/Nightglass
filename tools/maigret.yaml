@@ -1,0 +1,23 @@
+# Maigret - tool manifest (schema: core/manifest.py)
+id: maigret
+name: "Maigret"
+category: usernames
+description: "Username research across many sites, with profile parsing and reports."
+limitations: "Rate limits and false positives are possible. Results are leads until verified."
+official_url: https://github.com/soxoj/maigret
+license: "MIT"
+open_source: true
+provider: "Up to 500 top sites from Maigret's bundled site database"
+labels: [external, passive]
+target_types: [username]
+launch:
+  kind: subprocess
+  venv: envs/maigret
+  timeout_s: 300
+  max_output_kb: 4096
+  # Verified against Maigret 0.6.6. --no-recursion keeps it to this username (no pivoting
+  # to other names it extracts); --no-autoupdate keeps the pinned site database; --ai is never passed.
+  args: ["-m", "maigret", "{username}", "--no-color", "--no-progressbar", "--no-autoupdate",
+         "--no-recursion", "--top-sites", "500", "--timeout", "20", "-J", "simple", "--folderoutput", "{work_dir}"]
+parser: adapters.maigret:parse
+review_date: 2026-10-01

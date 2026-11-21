@@ -1,0 +1,20 @@
+id: ofw_ghidra
+name: Ghidra
+category: threat
+description: Free and open-source reverse engineering framework from NSA for analyzing
+  compiled software. Includes disassembly, decompilation, scripting, and interactive
+  graphing for malware analysis.
+limitations: From OSINT Framework (Malicious File Analysis; free). Install and run
+  it yourself after reviewing it.
+official_url: https://github.com/NationalSecurityAgency/ghidra
+license: null
+open_source: true
+labels:
+- external
+- passive
+target_types:
+- file
+- url
+launch:
+  kind: browser
+review_date: '2026-11-02'
